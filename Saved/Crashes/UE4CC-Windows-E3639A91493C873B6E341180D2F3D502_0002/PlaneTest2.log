@@ -1,0 +1,701 @@
+﻿Log file open, 09/23/18 21:19:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: PlaneTest2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.284894
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.091s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.23-19.19.36:825][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.23-19.19.36:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.23-19.19.36:841][  0]LogHAL: Display: Platform has ~ 16 GB [16989323264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.23-19.19.36:841][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.23-19.19.36:841][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.23-19.19.36:841][  0]LogInit: Computer: DESKTOP-O5KU02M
+[2018.09.23-19.19.36:841][  0]LogInit: User: gio2
+[2018.09.23-19.19.36:841][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.23-19.19.36:841][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2018.09.23-19.19.36:842][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.09.23-19.19.36:842][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.23-19.19.36:842][  0]LogMemory: Process Physical Memory: 100.99 MB used, 100.99 MB peak
+[2018.09.23-19.19.36:842][  0]LogMemory: Process Virtual Memory: 85.61 MB used, 85.61 MB peak
+[2018.09.23-19.19.36:842][  0]LogMemory: Physical Memory: 6432.38 MB used,  9769.91 MB free, 16202.28 MB total
+[2018.09.23-19.19.36:842][  0]LogMemory: Virtual Memory: 4639.49 MB used,  9769.91 MB free, 134217728.00 MB total
+[2018.09.23-19.19.36:860][  0]LogInit: Using OS detected language (it-IT).
+[2018.09.23-19.19.36:860][  0]LogInit: Using OS detected locale (it-IT).
+[2018.09.23-19.19.36:860][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
+[2018.09.23-19.19.36:862][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2018.09.23-19.19.36:862][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.23-19.19.36:906][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.23-19.19.36:906][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.23-19.19.37:106][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.23-19.19.37:106][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.23-19.19.37:161][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2018.09.23-19.19.37:161][  0]LogD3D11RHI:       4055/0/8101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.23-19.19.37:273][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.09.23-19.19.37:273][  0]LogD3D11RHI:       128/0/8101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.23-19.19.37:275][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.23-19.19.37:275][  0]LogD3D11RHI:       0/0/8101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.23-19.19.37:275][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.23-19.19.37:297][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.23-19.19.37:297][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2018.09.23-19.19.37:297][  0]LogWindows: EnumDisplayDevices:
+[2018.09.23-19.19.37:297][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2018.09.23-19.19.37:297][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.23-19.19.37:297][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.09.23-19.19.37:297][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.23-19.19.37:297][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2018.09.23-19.19.37:297][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.23-19.19.37:297][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.23-19.19.37:297][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
+[2018.09.23-19.19.37:336][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.23-19.19.37:386][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.23-19.19.37:387][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/gio2/Documents/Unreal Projects/testPlane/Intermediate/Shaders/WorkingDirectory/8528/).
+[2018.09.23-19.19.37:387][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gio2/AppData/Local/Temp/UnrealShaderWorkingDir/8C3C24D1419F1A14D153FC80725897A0/'.
+[2018.09.23-19.19.37:684][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.23-19.19.37:699][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.23-19.19.37:714][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.23-19.19.37:731][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.23-19.19.37:747][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.23-19.19.37:762][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.23-19.19.37:777][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.23-19.19.37:791][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.23-19.19.37:798][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.23-19.19.37:886][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.23-19.19.37:888][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.23-19.19.37:948][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.23-19.19.37:948][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.23-19.19.37:973][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.23-19.19.37:973][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.23-19.19.37:986][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.23-19.19.37:999][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.23-19.19.38:012][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.23-19.19.38:025][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.23-19.19.38:034][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.23-19.19.38:034][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.23-19.19.38:087][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.23-19.19.38:087][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.23-19.19.38:087][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.23-19.19.38:825][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.23-19.19.38:881][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/gio2/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.23-19.19.38:881][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gio2/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.23-19.19.38:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gio2/Documents/Unreal Projects/testPlane/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.23-19.19.38:881][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.23-19.19.38:881][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gio2/Documents/Unreal Projects/testPlane/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.23-19.19.38:881][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.23-19.19.38:895][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.23-19.19.38:907][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gio2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.23-19.19.38:907][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.23-19.19.38:907][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.23-19.19.38:926][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.23-19.19.38:928][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.23-19.19.38:928][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.23-19.19.39:003][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.09.23-19.19.39:327][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.23-19.19.39:464][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.23-19.19.39:467][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.23-19.19.39:467][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.23-19.19.39:468][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.23-19.19.39:468][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.23-19.19.39:487][  0]LogNetVersion: PlaneTest2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1907551874)
+[2018.09.23-19.19.40:020][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.099348 seconds
+[2018.09.23-19.19.40:026][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.23-19.19.40:026][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.23-19.19.40:026][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.23-19.19.40:873][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.23-19.19.40:886][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.23-19.19.41:036][  0]SourceControl: Source control is disabled
+[2018.09.23-19.19.41:036][  0]SourceControl: Source control is disabled
+[2018.09.23-19.19.41:037][  0]SourceControl: Source control is disabled
+[2018.09.23-19.19.41:038][  0]SourceControl: Source control is disabled
+[2018.09.23-19.19.41:194][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.23-19.19.41:257][  0]LogOcInput: OculusInput pre-init called
+[2018.09.23-19.19.41:318][  0]LogEngine: Initializing Engine...
+[2018.09.23-19.19.41:319][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.23-19.19.41:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.23-19.19.41:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.23-19.19.41:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.23-19.19.41:320][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.23-19.19.41:540][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.23-19.19.41:553][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.23-19.19.41:571][  0]LogInit: XAudio2 using 'Cuffie (LG HTS(4F:B6) Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.23-19.19.41:630][  0]LogInit: FAudioDevice initialized.
+[2018.09.23-19.19.41:630][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.23-19.19.41:718][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/gio2/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.23-19.19.41:731][  0]LogInit: Texture streaming: Enabled
+[2018.09.23-19.19.41:748][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.23-19.19.41:761][  0]LogInit: Transaction tracking system initialized
+[2018.09.23-19.19.41:781][  0]BlueprintLog: New page: Editor Load
+[2018.09.23-19.19.41:847][  0]LocalizationService: Localization service is disabled
+[2018.09.23-19.19.42:115][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.23-19.19.42:115][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.23-19.19.42:115][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.23-19.19.42:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.23-19.19.42:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.23-19.19.42:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.23-19.19.42:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.23-19.19.42:226][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/Unreal Projects/testPlane/Content/' took 0.01s
+[2018.09.23-19.19.42:226][  0]SourceControl: Source control is disabled
+[2018.09.23-19.19.42:341][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.23-19.19.42:344][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.23-19.19.49:680][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.09.23-19.19.49:681][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.23-19.19.49:686][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.23-19.19.51:187][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2018.09.23-19.19.51:188][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.23-19.19.51:192][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.23-19.19.51:230][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gio2/Documents/Unreal Projects/testPlane/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.23-19.19.51:231][  0]LightingResults: New page: Lighting Build
+[2018.09.23-19.19.51:235][  0]MapCheck: New page: Map Check
+[2018.09.23-19.19.51:235][  0]LightingResults: New page: Lighting Build
+[2018.09.23-19.19.51:892][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.09.23-19.19.51:915][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.23-19.19.51:943][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.23-19.19.52:011][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67,721ms to complete.
+[2018.09.23-19.19.52:011][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.781
+[2018.09.23-19.19.52:054][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-19.19.52:062][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-19.19.52:070][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-19.19.52:077][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-19.19.52:083][  0]LogCollectionManager: Loaded 0 collections in 0.001418 seconds
+[2018.09.23-19.19.52:124][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/Unreal Projects/testPlane/Saved/Collections/' took 0.01s
+[2018.09.23-19.19.52:124][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/Unreal Projects/testPlane/Content/Developers/gio2/Collections/' took 0.01s
+[2018.09.23-19.19.52:124][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/Unreal Projects/testPlane/Content/Collections/' took 0.01s
+[2018.09.23-19.19.52:124][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.23-19.19.52:133][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2572 classes and 603 folders.
+[2018.09.23-19.19.52:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.23-19.19.52:174][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.09.23-19.19.52:179][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.23-19.19.52:199][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.23-19.19.52:206][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.23-19.19.52:273][  0]LogRenderer: Reallocating scene render targets to support 1208x668 Format 10 NumSamples 1 (Frame:1).
+[2018.09.23-19.19.52:421][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.23-19.19.52:421][  0]LogLoad: (Engine Initialization) Total time: 17.07 seconds
+[2018.09.23-19.19.52:421][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.23-19.19.52:458][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.23-19.19.52:478][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.23-19.19.52:643][  1]LogAssetRegistry: Asset discovery search completed in 13.6620 seconds
+[2018.09.23-19.19.52:645][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.23-19.19.52:645][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2018.09.23-19.19.53:475][ 53]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.23-19.20.01:735][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.23-19.20.03:712][757]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn
+[2018.09.23-19.20.04:262][757]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.23-19.20.05:068][757]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.23-19.20.05:476][758]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.23-19.20.11:461][142]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.23-19.20.11:479][142]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.09.23-19.20.11:479][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.23-19.20.11:492][142]PIE: New page: PIE session: FlyingExampleMap (23/set/2018 23:20:11)
+[2018.09.23-19.20.11:492][142]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2018.09.23-19.20.11:522][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029965s)
+[2018.09.23-19.20.11:523][142]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.09.23-19.20.11:523][142]LogPlayLevel: PIE: World Init took: (0.001370s)
+[2018.09.23-19.20.11:524][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.031669s)
+[2018.09.23-19.20.11:567][142]LogInit: XAudio2 using 'Cuffie (LG HTS(4F:B6) Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.23-19.20.11:603][142]LogInit: FAudioDevice initialized.
+[2018.09.23-19.20.11:651][142]LogLoad: Game class is 'FlyingGameMode_C'
+[2018.09.23-19.20.11:658][142]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.09.23-21.20.11
+[2018.09.23-19.20.11:659][142]LogWorld: Bringing up level for play took: 0.005828
+[2018.09.23-19.20.11:675][142]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.09.23-19.20.11:676][142]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0,823
+[2018.09.23-19.20.11:676][142]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.09.23-19.20.21:384][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.09.23-19.20.21:384][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-19.20.21:441][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.23-19.20.21:442][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.09.23-19.20.21:472][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.23-19.20.21:549][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2018.09.23-19.20.24:498][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.23-19.21.26:269][150]LogSavePackage: Moving '../../../../../../Users/gio2/Documents/Unreal Projects/testPlane/Saved/AiFlyingPawnEEE2A56F4A949C0BA69E599808AD8214.tmp' to '../../../../../../Users/gio2/Documents/Unreal Projects/testPlane/Content/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.uasset'
+[2018.09.23-19.21.26:857][180]BlueprintLog: New page: Compile AiFlyingPawn
+[2018.09.23-19.21.42:568][100]LogTemp: Repeating last play command: Selected Viewport
+[2018.09.23-19.21.42:613][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.09.23-19.21.42:614][100]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.09.23-19.21.42:646][100]LogPlayLevel: [PlayLevel] Compiling AiFlyingPawn before play...
+[2018.09.23-19.21.42:844][100]LogPlayLevel: PlayLevel: Blueprint regeneration took 230 ms (1 blueprints)
+[2018.09.23-19.21.42:844][100]PIE: New page: PIE session: FlyingExampleMap (23/set/2018 23:21:42)
+[2018.09.23-19.21.42:844][100]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
+[2018.09.23-19.21.42:866][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021219s)
+[2018.09.23-19.21.42:867][100]LogAIModule: Creating AISystem for world FlyingExampleMap
+[2018.09.23-19.21.42:867][100]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2018.09.23-19.21.42:867][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.022649s)
+[2018.09.23-19.21.42:906][100]LogInit: XAudio2 using 'Cuffie (LG HTS(4F:B6) Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.09.23-19.21.42:941][100]LogInit: FAudioDevice initialized.
+[2018.09.23-19.21.42:975][100]LogLoad: Game class is 'FlyingGameMode_C'
+[2018.09.23-19.21.42:982][100]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.09.23-21.21.42
+[2018.09.23-19.21.42:983][100]LogWorld: Bringing up level for play took: 0.006378
+[2018.09.23-19.21.42:995][100]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0,142
+[2018.09.23-19.21.42:995][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
+[2018.09.23-19.21.42:995][100]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.42:995][100]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:103][101]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:103][101]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:116][102]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:116][102]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:153][103]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:154][103]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:191][104]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:191][104]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:201][105]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:201][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:213][106]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:214][106]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:226][107]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:226][107]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:237][108]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:237][108]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:249][109]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:249][109]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:261][110]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:261][110]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:272][111]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:273][111]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:285][112]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:285][112]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:298][113]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:298][113]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:311][114]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:311][114]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:324][115]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:324][115]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:336][116]LogScript: Warning: Accessed None trying to read property Enemy
+	AiFlyingPawn_C /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2
+	Function /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn_C:ExecuteUbergraph_AiFlyingPawn:0C2A
+[2018.09.23-19.21.43:336][116]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:349][117]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:361][118]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:375][119]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:387][120]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:402][121]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:415][122]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:429][123]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:443][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:455][125]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:468][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:480][127]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:492][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:506][129]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:521][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:533][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:545][132]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:559][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:573][134]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:588][135]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:603][136]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:619][137]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:647][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:656][139]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:664][140]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:675][141]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:686][142]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:700][143]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:712][144]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:727][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:739][146]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:751][147]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:764][148]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:778][149]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:792][150]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:805][151]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:819][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:831][153]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:845][154]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:860][155]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:871][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:884][157]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:899][158]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:912][159]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:926][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:938][161]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:951][162]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:966][163]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.43:984][164]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:002][165]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:021][166]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:038][167]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:056][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:072][169]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:085][170]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:100][171]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:114][172]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:128][173]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:143][174]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:159][175]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:171][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:185][177]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:199][178]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:213][179]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:226][180]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:242][181]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:254][182]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:270][183]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:283][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:296][185]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:310][186]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:326][187]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:339][188]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:352][189]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:365][190]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:379][191]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:393][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:405][193]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:420][194]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:432][195]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:445][196]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:460][197]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:472][198]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:485][199]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:498][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:512][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:526][202]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:540][203]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:552][204]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:567][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:579][206]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:593][207]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:605][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:619][209]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:631][210]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:645][211]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:661][212]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:671][213]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:685][214]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:698][215]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Enemy". Blueprint:  AiFlyingPawn Function:  Execute Ubergraph Ai Flying Pawn Graph:  EventGraph Node:  AddActorLocalOffset
+[2018.09.23-19.21.44:698][215]LogOutputDevice: Warning: 
+
+Script Stack:
+AiFlyingPawn_C.ExecuteUbergraph_AiFlyingPawn
+AiFlyingPawn_C.ReceiveTick
+
+[2018.09.23-19.21.45:083][215]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.385 s
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: 
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 611]
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: 
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: Stack: 
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5e0b71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5ddf0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5de0b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e6aa8a UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e47cd0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58de7a31 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e5d2d0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e1d211 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5898ef98 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa588ed1cc UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58266467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5847169e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58491b86 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5847204d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:083][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58491b86 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58266467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58491123 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58997fe3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59ce72da UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa589b6b2e UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa589b72bc UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa589755e0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59b70a7d UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5dc71f92 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5dc72456 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5dc86d25 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59bc4ec4 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59bd4152 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa592d8784 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa592e3fa3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa56907335 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffa571ff646 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cac5cbd UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cad5b3c UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cad5bba UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cae3dac UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cae5aaa UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffad0193034 KERNEL32.DLL!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: [Callstack] 0x00007ffad2c01461 ntdll.dll!UnknownFunction []
+[2018.09.23-19.21.45:084][215]LogOutputDevice: Error: 
+[2018.09.23-19.21.45:093][215]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.23-19.21.45:384][215]LogStats:                    SendNewReport -  0.291 s
+[2018.09.23-19.21.45:384][215]LogStats:             FDebug::EnsureFailed -  0.686 s
+[2018.09.23-19.21.45:385][215]LogOutputDevice: Warning: 
+
+Script Stack:
+AiFlyingPawn_C.ExecuteUbergraph_AiFlyingPawn
+AiFlyingPawn_C.ReceiveTick
+
+[2018.09.23-19.21.45:386][215]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: 
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2781]
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: SetBodyTransform contains NaN (/Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2.Plane mesh)
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: 1012.201782,inf,83076749736557242056487941267521536000.000000|0.000000,0.000000,0.000000|0.500000,0.500000,0.500000
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: Stack: 
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5e0b71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5ddf0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5de0b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa596820f4 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58df8024 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58dea87e UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e51250 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e6ab14 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e47cd0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58de7a31 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e5d2d0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58e1d211 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5898ef98 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa588ed1cc UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58266467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5847169e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58491b86 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:386][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5847204d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58491b86 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58266467 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58491123 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58997fe3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59ce72da UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa589b6b2e UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa589b72bc UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa589755e0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59b70a7d UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5dc71f92 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5dc72456 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5dc86d25 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59bc4ec4 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59bd4152 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa592d8784 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa592e3fa3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa56907335 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffa571ff646 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cac5cbd UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cad5b3c UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cad5bba UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cae3dac UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cae5aaa UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffad0193034 KERNEL32.DLL!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: [Callstack] 0x00007ffad2c01461 ntdll.dll!UnknownFunction []
+[2018.09.23-19.21.45:387][215]LogOutputDevice: Error: 
+[2018.09.23-19.21.45:389][215]LogStats:                SubmitErrorReport -  0.000 s
+[2018.09.23-19.21.45:673][215]LogStats:                    SendNewReport -  0.285 s
+[2018.09.23-19.21.45:674][215]LogStats:             FDebug::EnsureFailed -  0.289 s
+[2018.09.23-19.21.45:675][215]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: === Handled ensure: ===
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: 
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 985]
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: Nans found on Bounds for Primitive Plane mesh: Origin X=1005.843 Y=inf Z=83076749736557242056487941267521536000.000, BoxExtent X=31.359 Y=25.000 Z=14.134, SphereRadius 35.311810
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: Stack: 
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5e0b71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5ddf0c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa5de0b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa52c347bf UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58df89d0 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa58d04a49 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59293214 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa592c7528 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa592d951a UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa52bb892e UE4Editor-Renderer.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa590e92d3 UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa59b5978a UE4Editor-Engine.dll!UnknownFunction []
+[2018.09.23-19.21.45:675][215]LogOutputDevice: Error: [Callstack] 0x00007ffa56907d3d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ffa571ff646 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cac5cbd UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cad5b3c UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cad5bba UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cae3dac UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ff69cae5aaa UE4Editor.exe!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ffad0193034 KERNEL32.DLL!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: [Callstack] 0x00007ffad2c01461 ntdll.dll!UnknownFunction []
+[2018.09.23-19.21.45:676][215]LogOutputDevice: Error: 
+[2018.09.23-19.21.45:678][215]LogStats:                SubmitErrorReport -  0.000 s
