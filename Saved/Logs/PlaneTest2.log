@@ -1,4 +1,4 @@
-﻿Log file open, 09/24/18 16:48:56
+﻿Log file open, 07/23/19 20:26:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlaneTest2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.293869
+LogStats: Stats thread started at 1.046777
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.246s to configure plugins.
+LogStreaming: Display: Took  0.204s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -114,12 +114,12 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4302132
-LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
 LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
-LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
@@ -147,925 +147,187 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.005s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.24-14.48.56:547][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.24-14.48.56:547][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.24-14.48.56:565][  0]LogHAL: Display: Platform has ~ 8 GB [8465240064 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.24-14.48.56:566][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.24-14.48.56:566][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.24-14.48.56:566][  0]LogInit: Computer: DESKTOP-O2TJ2H8
-[2018.09.24-14.48.56:566][  0]LogInit: User: NttdataSky
-[2018.09.24-14.48.56:566][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.24-14.48.56:566][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2018.09.24-14.48.56:566][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.09.24-14.48.56:566][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.24-14.48.56:566][  0]LogMemory: Process Physical Memory: 101.02 MB used, 101.02 MB peak
-[2018.09.24-14.48.56:566][  0]LogMemory: Process Virtual Memory: 92.00 MB used, 92.00 MB peak
-[2018.09.24-14.48.56:566][  0]LogMemory: Physical Memory: 6573.95 MB used,  1499.14 MB free, 8073.08 MB total
-[2018.09.24-14.48.56:566][  0]LogMemory: Virtual Memory: 4645.96 MB used,  1499.14 MB free, 134217728.00 MB total
-[2018.09.24-14.48.56:609][  0]LogInit: Using OS detected language (it-IT).
-[2018.09.24-14.48.56:609][  0]LogInit: Using OS detected locale (it-IT).
-[2018.09.24-14.48.56:611][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
-[2018.09.24-14.48.56:614][  0]LogStreaming: Display: Took  0.005s to InitEngineTextLocalization.
-[2018.09.24-14.48.56:614][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.24-14.48.56:650][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.24-14.48.56:650][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.24-14.48.56:879][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.24-14.48.56:879][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.24-14.48.56:911][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2018.09.24-14.48.56:911][  0]LogD3D11RHI:       2018/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.24-14.48.56:919][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.24-14.48.56:919][  0]LogD3D11RHI:       128/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.24-14.48.56:921][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.24-14.48.56:921][  0]LogD3D11RHI:       0/0/4036 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.24-14.48.56:921][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.24-14.48.56:940][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.24-14.48.56:941][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2018.09.24-14.48.56:941][  0]LogWindows: EnumDisplayDevices:
-[2018.09.24-14.48.56:941][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.09.24-14.48.56:941][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.24-14.48.56:941][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.24-14.48.56:942][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.09.24-14.48.56:942][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2018.09.24-14.48.56:942][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.09.24-14.48.56:942][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.09.24-14.48.56:942][  0]LogRHI: Texture pool is 1413 MB (70% of 2018 MB)
-[2018.09.24-14.48.56:960][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.24-14.48.56:971][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.24-14.48.56:972][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Intermediate/Shaders/WorkingDirectory/26148/).
-[2018.09.24-14.48.56:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NttdataSky/AppData/Local/Temp/UnrealShaderWorkingDir/858836574736043AC3363DABDB48E7B6/'.
-[2018.09.24-14.48.57:289][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.24-14.48.57:303][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.24-14.48.57:320][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.24-14.48.57:337][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.24-14.48.57:353][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.24-14.48.57:368][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.24-14.48.57:384][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.24-14.48.57:400][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.24-14.48.57:408][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.24-14.48.57:501][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.24-14.48.57:565][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.24-14.48.57:565][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.24-14.48.57:589][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.24-14.48.57:589][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.24-14.48.57:602][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.24-14.48.57:614][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.24-14.48.57:627][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.24-14.48.57:645][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.24-14.48.57:655][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.24-14.48.57:655][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.24-14.48.57:734][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.24-14.48.57:734][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.24-14.48.57:734][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.24-14.48.58:481][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.24-14.48.58:532][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.24-14.48.58:533][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.24-14.48.58:533][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.24-14.48.58:533][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.24-14.48.58:533][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.24-14.48.58:533][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.24-14.48.58:548][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.24-14.48.58:561][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NttdataSky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.24-14.48.58:561][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.24-14.48.58:561][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.24-14.48.58:579][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.24-14.48.58:580][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.24-14.48.58:581][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.24-14.48.58:658][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2018.09.24-14.48.58:998][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.24-14.48.59:160][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.24-14.48.59:166][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.24-14.48.59:166][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.24-14.48.59:166][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.24-14.48.59:166][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.24-14.48.59:182][  0]LogNetVersion: PlaneTest2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1907551874)
-[2018.09.24-14.48.59:924][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.254987 seconds
-[2018.09.24-14.48.59:931][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.24-14.48.59:931][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.09.24-14.48.59:931][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.24-14.49.00:914][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.24-14.49.00:927][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.24-14.49.01:094][  0]SourceControl: Source control is disabled
-[2018.09.24-14.49.01:094][  0]SourceControl: Source control is disabled
-[2018.09.24-14.49.01:096][  0]SourceControl: Source control is disabled
-[2018.09.24-14.49.01:097][  0]SourceControl: Source control is disabled
-[2018.09.24-14.49.01:285][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.24-14.49.01:350][  0]LogOcInput: OculusInput pre-init called
-[2018.09.24-14.49.01:418][  0]LogEngine: Initializing Engine...
-[2018.09.24-14.49.01:419][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.24-14.49.01:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.24-14.49.01:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.24-14.49.01:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.24-14.49.01:421][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.24-14.49.01:673][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.24-14.49.01:690][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.24-14.49.01:701][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.24-14.49.01:748][  0]LogInit: FAudioDevice initialized.
-[2018.09.24-14.49.01:748][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.24-14.49.01:845][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.24-14.49.01:856][  0]LogInit: Texture streaming: Enabled
-[2018.09.24-14.49.01:879][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.24-14.49.01:902][  0]LogInit: Transaction tracking system initialized
-[2018.09.24-14.49.01:937][  0]BlueprintLog: New page: Editor Load
-[2018.09.24-14.49.02:055][  0]LocalizationService: Localization service is disabled
-[2018.09.24-14.49.02:392][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.24-14.49.02:392][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.24-14.49.02:392][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.24-14.49.02:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.24-14.49.02:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.24-14.49.02:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.24-14.49.02:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.24-14.49.02:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/' took 0.02s
-[2018.09.24-14.49.02:561][  0]SourceControl: Source control is disabled
-[2018.09.24-14.49.02:657][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.24-14.49.02:659][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.24-14.49.06:288][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2018.09.24-14.49.06:290][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.24-14.49.06:292][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.24-14.49.07:768][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
-[2018.09.24-14.49.07:769][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.24-14.49.07:773][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.24-14.49.07:809][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/FlyingExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.24-14.49.07:810][  0]LightingResults: New page: Lighting Build
-[2018.09.24-14.49.07:816][  0]MapCheck: New page: Map Check
-[2018.09.24-14.49.07:816][  0]LightingResults: New page: Lighting Build
-[2018.09.24-14.49.08:134][  0]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.24-14.49.08:141][  0]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.24-14.49.08:154][  0]LogBlueprint: Warning: [Compiler AiFlyingPawn] [0014,05] Compile of AiFlyingPawn successful, but with 2 Warning(s) [in 20 ms] (/Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn)
-[2018.09.24-14.49.08:621][  0]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.09.24-14.49.08:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.09.24-14.49.08:675][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.24-14.49.08:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 104,302ms to complete.
-[2018.09.24-14.49.08:780][  0]LogFileHelpers: Loading map 'FlyingExampleMap' took 0.971
-[2018.09.24-14.49.08:820][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.24-14.49.08:829][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.24-14.49.08:837][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.24-14.49.08:845][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.24-14.49.08:855][  0]LogCollectionManager: Loaded 0 collections in 0.002338 seconds
-[2018.09.24-14.49.08:902][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Collections/' took 0.01s
-[2018.09.24-14.49.08:902][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Developers/NttdataSky/Collections/' took 0.01s
-[2018.09.24-14.49.08:902][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Collections/' took 0.01s
-[2018.09.24-14.49.08:902][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.24-14.49.08:914][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2572 classes and 603 folders.
-[2018.09.24-14.49.08:923][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.24-14.49.08:994][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.24-14.49.09:000][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.09.24-14.49.09:016][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.24-14.49.09:022][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.24-14.49.09:079][  0]LogRenderer: Reallocating scene render targets to support 708x336 Format 10 NumSamples 1 (Frame:1).
-[2018.09.24-14.49.09:212][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.24-14.49.09:212][  0]LogLoad: (Engine Initialization) Total time: 15.11 seconds
-[2018.09.24-14.49.09:212][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.24-14.49.09:253][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.24-14.49.09:522][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.24-14.49.09:900][ 18]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.24-14.49.10:265][ 36]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.09.24-14.49.11:684][113]LogAssetRegistry: Asset discovery search completed in 13.0482 seconds
-[2018.09.24-14.49.11:686][113]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
-[2018.09.24-14.49.13:372][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-14.49.16:387][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-14.49.24:446][859]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/BTDecorator_BlueprintBase_New.BTDecorator_BlueprintBase_New
-[2018.09.24-14.49.25:043][859]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.09.24-14.49.29:903][ 89]LogSlate: Window 'BTDecorator_BlueprintBase_New' being destroyed
-[2018.09.24-15.02.54:328][443]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.03.03:350][967]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
-[2018.09.24-15.03.03:395][967]LogEditorActor: Deleted 1 Actors (0.073 secs)
-[2018.09.24-15.03.05:735][103]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
-[2018.09.24-15.03.05:763][103]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2018.09.24-15.03.15:521][683]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ground_5)
-[2018.09.24-15.03.15:614][683]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.24-15.03.16:357][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_6)
-[2018.09.24-15.03.17:146][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.03.20:729][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.03.44:100][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.03.53:053][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.04.14:219][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.04.45:300][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (TemplateCube_Rounded_91)
-[2018.09.24-15.04.46:475][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_5)
-[2018.09.24-15.04.47:295][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_4)
-[2018.09.24-15.04.48:766][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.06.08:164][753]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.24-15.06.09:830][754]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMap_Auto10D94CC8F4A682B685C989294E11DD719.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto1.umap'
-[2018.09.24-15.06.09:848][754]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.514
-[2018.09.24-15.06.09:848][754]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.514
-[2018.09.24-15.06.15:489][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:489][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/BTT_AIMoveToEnemy.uasset.
-[2018.09.24-15.06.15:489][ 78]LoadErrors: Error: /Game/FlyingBP/Blueprints/AIPlane/BTT_AIMoveToEnemy : Can't find file for asset. /Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum
-[2018.09.24-15.06.15:489][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:489][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/BTT_AIMoveToEnemy.uasset.
-[2018.09.24-15.06.15:491][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:491][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading NULL.
-[2018.09.24-15.06.15:491][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:491][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading NULL.
-[2018.09.24-15.06.15:491][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:491][ 78]LoadErrors: Failed to load /Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum.AiPlaneEnum Referenced by K2Node_SwitchEnum_0
-[2018.09.24-15.06.15:491][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading NULL.
-[2018.09.24-15.06.15:492][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:492][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading NULL.
-[2018.09.24-15.06.15:492][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:492][ 78]LoadErrors: Failed to load /Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum.AiPlaneEnum Referenced by K2Node_CastByteToEnum_0
-[2018.09.24-15.06.15:492][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading NULL.
-[2018.09.24-15.06.15:492][ 78]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum'
-[2018.09.24-15.06.15:493][ 78]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneEnum' while loading NULL.
-[2018.09.24-15.06.15:496][ 78]LogBlueprint: Error: [Compiler BTT_AIMoveToEnemy] Undefined Enum in  Byte to Enum (bad enum)
-[2018.09.24-15.06.15:496][ 78]LogBlueprint: Warning: [Compiler BTT_AIMoveToEnemy] [1041,39] Compile of BTT_AIMoveToEnemy failed. 1 Fatal Issue(s) 0 Warning(s) [in 3 ms] (/Game/FlyingBP/Blueprints/AIPlane/BTT_AIMoveToEnemy.BTT_AIMoveToEnemy)
-[2018.09.24-15.06.17:352][ 78]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.24-15.06.41:376][568]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn
-[2018.09.24-15.06.41:848][568]LogSlate: Took 0.006389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.09.24-15.06.42:357][569]LogSlate: Took 0.006153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.09.24-15.07.02:387][767]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2018.09.24-15.07.02:387][767]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2018.09.24-15.07.02:387][767]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2018.09.24-15.10.22:559][941]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.09.24-15.10.31:257][456]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/AIPlanePaper.AIPlanePaper
-[2018.09.24-15.10.31:708][457]LogRenderer: Reallocating scene render targets to support 708x464 Format 10 NumSamples 1 (Frame:1).
-[2018.09.24-15.10.46:844][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.11.01:232][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.11.16:652][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.11.30:425][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.11.37:803][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.11.44:076][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.11.50:956][ 69]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AIPlanePaper02E24C8645864265710C48BDE4B406D6.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AIPlanePaper.uasset'
-[2018.09.24-15.13.14:643][416]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.24-15.14.01:772][795]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.14.01:772][795]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.01:638][922]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.01:638][922]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.01:645][922]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.24-15.15.03:537][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.24-15.15.04:101][ 68]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.04:101][ 68]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.04:605][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.24-15.15.10:519][451]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.10:519][451]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.12:835][589]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.15.12:835][589]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
-[2018.09.24-15.16.58:632][614]LogClass: Warning: In asset 'None', there is an enum property of type 'EKinematicBonesUpdateToPhysics' with an invalid value of ''
-[2018.09.24-15.16.58:632][614]LogClass: Warning: In asset 'None', there is an enum property of type 'EKinematicBonesUpdateToPhysics' with an invalid value of ''
-[2018.09.24-15.17.34:206][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.034
-[2018.09.24-15.17.34:210][707]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/AIPlanePaper] ([1] browsable assets)...
-[2018.09.24-15.17.34:227][707]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FlyingBP/Blueprints/AIPlane/AIPlanePaper.AIPlanePaper]
-[2018.09.24-15.17.34:227][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/AIPlanePaper]
-[2018.09.24-15.17.34:287][707]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AIPlanePaper_Auto282A2BA9542C0847DD94A17806ADECE5E.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/AIPlanePaper_Auto2.uasset'
-[2018.09.24-15.17.34:295][707]LogFileHelpers: Auto-saving content packages took 0.088
-[2018.09.24-15.17.59:446][620]BlueprintLog: New page: Compile AIPlanePaper
-[2018.09.24-15.18.00:347][656]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AIPlanePaper024660ED46337960F280A485396C4327.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AIPlanePaper.uasset'
-[2018.09.24-15.18.23:210][211]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/FlyingBP/Blueprints/AIPlane/AiData.AiData
-[2018.09.24-15.19.14:941][944]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.24-15.19.37:708][282]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiDataA02FC4754F3AB56297943B8408675268.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiData.uasset'
-[2018.09.24-15.20.12:130][549]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/AiPlaneController.AiPlaneController
-[2018.09.24-15.20.55:436][ 25]BlueprintLog: New page: Compile AiPlaneController
-[2018.09.24-15.20.56:354][ 66]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneControllerA581928C44CA5CB44774009E67061608.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneController.uasset'
-[2018.09.24-15.23.50:855][837]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneController6FE51BCA48C81F9F89E4AF96EEA9E2CE.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneController.uasset'
-[2018.09.24-15.23.55:144][ 93]BlueprintLog: New page: Compile AiPlaneController
-[2018.09.24-15.25.02:314][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed'
-[2018.09.24-15.25.02:315][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed' while loading ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/NewBehaviorTree.uasset.
-[2018.09.24-15.25.02:315][490]LoadErrors: Error: /Game/FlyingBP/Blueprints/AIPlane/NewBehaviorTree : Can't find file for asset. /Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed
-[2018.09.24-15.25.02:315][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute'
-[2018.09.24-15.25.02:315][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute' while loading ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/NewBehaviorTree.uasset.
-[2018.09.24-15.25.02:315][490]LoadErrors: Error: /Game/FlyingBP/Blueprints/AIPlane/NewBehaviorTree : Can't find file for asset. /Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute
-[2018.09.24-15.25.02:316][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed'
-[2018.09.24-15.25.02:316][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed' while loading ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/NewBehaviorTree.uasset.
-[2018.09.24-15.25.02:316][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute'
-[2018.09.24-15.25.02:316][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute' while loading ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/NewBehaviorTree.uasset.
-[2018.09.24-15.25.02:317][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed'
-[2018.09.24-15.25.02:317][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed' while loading NULL.
-[2018.09.24-15.25.02:317][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed'
-[2018.09.24-15.25.02:317][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed' while loading NULL.
-[2018.09.24-15.25.02:317][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute'
-[2018.09.24-15.25.02:317][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute' while loading NULL.
-[2018.09.24-15.25.02:318][490]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute'
-[2018.09.24-15.25.02:318][490]LogLinker: Warning: Can't find file for asset '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute' while loading NULL.
-[2018.09.24-15.25.09:011][887]LogMetaData: Removing '/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/FlyingBP/Blueprints/AIPlane/NewBehaviorTree.PackageMetaData'
-[2018.09.24-15.25.09:051][887]LogAIGraph: Error: Btt_AIWalkSpeed class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_9
-[2018.09.24-15.25.09:051][887]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.25.09:052][887]LogAIGraph: Error: Btt_AIWalkSpeed class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_9
-[2018.09.24-15.25.09:052][887]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.25.09:055][887]LogAIGraph: Error: Btt_AIWalkSpeed class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_9
-[2018.09.24-15.25.09:055][887]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.25.09:058][887]LogAIGraph: Error: Btt_AIWalkSpeed class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_9
-[2018.09.24-15.25.09:058][887]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.25.09:059][887]LogAIGraph: Error: Btt_AIWalkSpeed class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_9
-[2018.09.24-15.25.09:059][887]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.25.09:065][887]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneThree63E94BF6411F6B53849A4EB8CF9D43E9.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneThree.uasset'
-[2018.09.24-15.25.29:390][861]BlueprintLog: New page: Compile AiPlaneController
-[2018.09.24-15.25.30:218][897]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneController04FA236E4D7309E994EDDBBA21E358CF.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneController.uasset'
-[2018.09.24-15.26.06:336][ 22]LogEditorViewport: Clicking on Actor (LMB): RecastNavMesh (RecastNavMesh-Default)
-[2018.09.24-15.26.08:438][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.26.10:204][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
-[2018.09.24-15.26.13:028][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.26.33:197][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
-[2018.09.24-15.26.34:042][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
-[2018.09.24-15.26.35:502][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground)
-[2018.09.24-15.26.39:550][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_5)
-[2018.09.24-15.26.47:129][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.24-15.26.47:287][148]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree
-[2018.09.24-15.26.47:293][148]LogAIGraph: Error: Btt_AIWalkSpeed class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_9
-[2018.09.24-15.26.47:294][148]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.26.47:294][148]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed'
-[2018.09.24-15.26.47:343][148]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute'
-[2018.09.24-15.26.47:358][148]LogBehaviorTree: Warning: Patrol[3]> Failed to find key 'State' in BB asset BlackboardData /Game/FlyingBP/Blueprints/AIPlane/AiData.AiData. BB Key Selector will be set to 'Invalid'
-[2018.09.24-15.26.47:362][148]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/Btt_AIWalkSpeed'
-[2018.09.24-15.26.47:364][148]LogLinker: Warning: Can't find file '/Game/FlyingBP/Blueprints/AIPlane/BTT_NextRoute'
-[2018.09.24-15.26.53:906][536]LogAIGraph: Error: Btt_AIWalkSpeed class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_9
-[2018.09.24-15.26.53:906][536]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.26.53:908][536]LogBehaviorTree: Warning: Patrol[3]> Failed to find key 'State' in BB asset BlackboardData /Game/FlyingBP/Blueprints/AIPlane/AiData.AiData. BB Key Selector will be set to 'Invalid'
-[2018.09.24-15.26.53:909][536]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.26.54:723][585]LogAIGraph: Error: BTT_NextRoute class missing. Referenced by BehaviorTreeGraphNode_Task /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree:Behavior Tree.BehaviorTreeGraphNode_Task_8
-[2018.09.24-15.26.54:724][585]LogBehaviorTree: Warning: Patrol[3]> Failed to find key 'State' in BB asset BlackboardData /Game/FlyingBP/Blueprints/AIPlane/AiData.AiData. BB Key Selector will be set to 'Invalid'
-[2018.09.24-15.26.55:662][641]LogBehaviorTree: Warning: Patrol[3]> Failed to find key 'State' in BB asset BlackboardData /Game/FlyingBP/Blueprints/AIPlane/AiData.AiData. BB Key Selector will be set to 'Invalid'
-[2018.09.24-15.27.16:754][905]LogBehaviorTree: Warning: Patrol[2]> Failed to find key 'State' in BB asset BlackboardData /Game/FlyingBP/Blueprints/AIPlane/AiData.AiData. BB Key Selector will be set to 'Invalid'
-[2018.09.24-15.27.50:122][389]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.24-15.27.50:855][430]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/BTService_BlueprintBase_New.BTService_BlueprintBase_New
-[2018.09.24-15.27.51:194][430]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FlyingBP/Blueprints/AIPlane/BTService_BlueprintBase_New.
-[2018.09.24-15.28.36:930][120]LogMetaData: Removing '/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.SKEL_FindPlaneEnemy_C' ref from Metadata '/Game/FlyingBP/Blueprints/AIPlane/BTService_BlueprintBase_New.PackageMetaData'
-[2018.09.24-15.28.36:930][120]LogMetaData: Removing '/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.FindPlaneEnemy_C' ref from Metadata '/Game/FlyingBP/Blueprints/AIPlane/BTService_BlueprintBase_New.PackageMetaData'
-[2018.09.24-15.28.36:985][120]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemyC0D707DA45FFFFD2F68449BC19ACC39E.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.uasset'
-[2018.09.24-15.28.37:347][124]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.
-[2018.09.24-15.28.38:736][179]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMap_Auto3B9ADA34E4672AADDE67FB99B41DE7CAD.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto3.umap'
-[2018.09.24-15.28.38:757][179]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.367
-[2018.09.24-15.28.38:757][179]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.367
-[2018.09.24-15.28.38:762][179]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree] ([1] browsable assets)...
-[2018.09.24-15.28.38:762][179]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree]
-[2018.09.24-15.28.38:793][179]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneThree_Auto304B4BACA43564ED81AB57598601252DD.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree_Auto3.uasset'
-[2018.09.24-15.28.38:799][179]LogFileHelpers: Auto-saving content packages took 0.040
-[2018.09.24-15.31.06:898][335]LogSlate: Took 0.006981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2018.09.24-15.33.55:693][708]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.24-15.35.03:675][180]LogSlate: Window 'Change Variable Type' being destroyed
-[2018.09.24-15.35.06:799][360]LogSlate: Window 'Find in Blueprints' being destroyed
-[2018.09.24-15.35.06:806][360]LogSlate: Window 'Find in Blueprints' being destroyed
-[2018.09.24-15.39.21:191][524]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_FindPlaneEnemy_C - Previous (StructProperty) Current(ByteProperty) for package:  FObjectReader
-[2018.09.24-15.39.34:469][317]BlueprintLog: New page: Compile FindPlaneEnemy
-[2018.09.24-15.39.34:479][317]LogBlueprint: Error: [Compiler FindPlaneEnemy] The current value (ObjectTypeQuery1) of the ' Object Types ' pin is invalid: Array inputs (like 'Object Types') must have an input wired into them (try connecting a MakeArray node).
-[2018.09.24-15.39.34:520][317]LogBlueprint: Warning: [Compiler FindPlaneEnemy] [3040,42] Compile of FindPlaneEnemy failed. 1 Fatal Issue(s) 0 Warning(s) [in 50 ms] (/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.FindPlaneEnemy)
-[2018.09.24-15.39.48:435][ 45]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemyB960B7634F45FF8A6E41A5B171A386B4.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.uasset'
-[2018.09.24-15.40.29:026][464]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemy54D286504FEF2FE0AC44C086FACC2AF5.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.uasset'
-[2018.09.24-15.40.29:781][508]BlueprintLog: New page: Compile FindPlaneEnemy
-[2018.09.24-15.46.55:575][766]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemyA590CA074F44819D0BBBEAB90939945A.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.uasset'
-[2018.09.24-15.46.56:060][794]BlueprintLog: New page: Compile FindPlaneEnemy
-[2018.09.24-15.47.20:742][555]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
-[2018.09.24-15.47.21:097][555]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FlyingBP/Blueprints/AIPlane/BTTask_BlueprintBase_New.
-[2018.09.24-15.47.44:888][724]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/FlyingBP/Blueprints/AIPlane/BTTask_BlueprintBase_New1.
-[2018.09.24-15.47.47:264][767]LogSlate: Window 'Delete Assets' being destroyed
-[2018.09.24-15.47.54:368][174]LogMetaData: Removing '/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo.SKEL_RapidMoveTo_C' ref from Metadata '/Game/FlyingBP/Blueprints/AIPlane/BTTask_BlueprintBase_New.PackageMetaData'
-[2018.09.24-15.47.54:368][174]LogMetaData: Removing '/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo.RapidMoveTo_C' ref from Metadata '/Game/FlyingBP/Blueprints/AIPlane/BTTask_BlueprintBase_New.PackageMetaData'
-[2018.09.24-15.47.54:417][174]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/RapidMoveTo8187B08340B86EFB5340C997CEA256C4.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/RapidMoveTo.uasset'
-[2018.09.24-15.47.54:717][177]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo.
-[2018.09.24-15.48.22:479][856]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMap_Auto493C927D84494D2A856B2169053E3AA0C.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto4.umap'
-[2018.09.24-15.48.22:496][856]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.408
-[2018.09.24-15.48.22:496][856]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.408
-[2018.09.24-15.58.22:714][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.036
-[2018.09.24-15.58.22:719][653]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo] ([1] browsable assets)...
-[2018.09.24-15.58.22:719][653]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo]
-[2018.09.24-15.58.22:757][653]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/RapidMoveTo_Auto52D808FF14F963D02379B26B185800FC5.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo_Auto5.uasset'
-[2018.09.24-15.58.22:765][653]LogFileHelpers: Auto-saving content packages took 0.049
-[2018.09.24-19.02.25:309][516]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2018.09.24-19.02.27:095][517]LogHttp: Warning: 00000217AEE75440: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.09.24-19.02.27:095][517]LogHttp: Warning: 00000217AEE75440: libcurl info message cache 0 (Connection 32 seems to be dead!)
-[2018.09.24-19.02.27:095][517]LogHttp: Warning: 00000217AEE75440: libcurl info message cache 1 (Closing connection 32)
-[2018.09.24-19.02.27:095][517]LogHttp: Warning: 00000217AEE75440: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.09.24-19.02.27:095][517]LogHttp: Warning: 00000217AEE75440: libcurl info message cache 3 (Closing connection 33)
-[2018.09.25-08.11.11:795][558]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2018.09.25-08.11.12:329][560]LogHttp: Warning: 00000217AEE75440: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.09.25-08.11.12:329][560]LogHttp: Warning: 00000217AEE75440: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.09.25-08.11.12:329][560]LogHttp: Warning: 00000217AEE75440: libcurl info message cache 1 (Closing connection 34)
-[2018.09.25-08.16.42:278][485]LogSlate: Window 'RapidMoveTo*' being destroyed
-[2018.09.25-08.16.43:381][485]LogSlate: Window 'RapidMoveTo*' being destroyed
-[2018.09.25-08.18.56:687][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.25-08.19.41:586][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.25-08.30.25:837][ 89]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo.RapidMoveTo
-[2018.09.25-08.32.48:860][705]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 1.068
-[2018.09.25-08.32.48:894][705]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo] ([1] browsable assets)...
-[2018.09.25-08.32.48:895][705]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo]
-[2018.09.25-08.32.49:029][705]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/RapidMoveTo_Auto6B1ECB2464FB5B4367D7248B55A49A5EC.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo_Auto6.uasset'
-[2018.09.25-08.32.49:037][705]LogFileHelpers: Auto-saving content packages took 0.150
-[2018.09.25-08.38.55:507][911]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMapF3245FE9441ECE03D0FB0680CF54CFBA.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/FlyingExampleMap.umap'
-[2018.09.25-08.39.00:249][911]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMap_BuiltDataBF76DED14CC474FC7EEBFB9F50FD700E.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/FlyingExampleMap_BuiltData.uasset'
-[2018.09.25-08.48.55:119][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.691
-[2018.09.25-08.48.55:123][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo] ([1] browsable assets)...
-[2018.09.25-08.48.55:123][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo]
-[2018.09.25-08.48.55:202][686]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/RapidMoveTo_Auto73BCFB5584C47866C9A420698D2621289.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/RapidMoveTo_Auto7.uasset'
-[2018.09.25-08.48.55:209][686]LogFileHelpers: Auto-saving content packages took 0.089
-[2018.09.25-09.31.52:722][427]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.FindPlaneEnemy
-[2018.09.25-09.32.44:139][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.219
-[2018.09.25-09.32.44:144][471]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy] ([1] browsable assets)...
-[2018.09.25-09.32.44:144][471]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy]
-[2018.09.25-09.32.44:293][471]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemy_Auto84B6B4A58487FAD89D3F772BC9F203281.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy_Auto8.uasset'
-[2018.09.25-09.32.44:301][471]LogFileHelpers: Auto-saving content packages took 0.161
-[2018.09.25-09.38.44:215][612]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree
-[2018.09.25-11.49.38:693][252]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.261
-[2018.09.25-11.49.38:699][252]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree] ([1] browsable assets)...
-[2018.09.25-11.49.38:699][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree]
-[2018.09.25-11.49.38:847][252]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneThree_Auto91A788D3D4426EA3A83B35085074D515B.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree_Auto9.uasset'
-[2018.09.25-11.49.38:855][252]LogFileHelpers: Auto-saving content packages took 0.160
-[2018.09.25-11.50.06:920][645]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemyD8DA547B495890F51EF342B99B52BB23.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.uasset'
-[2018.09.25-11.50.07:482][672]BlueprintLog: New page: Compile FindPlaneEnemy
-[2018.09.25-11.54.11:178][888]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/RapidMoveTo3DD103BA4ABB428818FDA08FC8DBDE7A.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/RapidMoveTo.uasset'
-[2018.09.25-11.54.23:421][609]Cmd: TRANSACTION UNDO
-[2018.09.25-11.54.23:422][609]LogEditorTransaction: Undo Add Node
-[2018.09.25-11.54.40:147][541]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree.AiPlaneThree
-[2018.09.25-11.54.54:755][118]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.25-11.54.54:974][118]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.54.54:991][118]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.09.25-11.54.54:997][118]LogPlayLevel: [PlayLevel] Compiling RapidMoveTo before play...
-[2018.09.25-11.54.55:082][118]LogPlayLevel: PlayLevel: Blueprint regeneration took 91 ms (1 blueprints)
-[2018.09.25-11.54.55:423][118]PIE: New page: PIE session: FlyingExampleMap (25/set/2018 15:54:55)
-[2018.09.25-11.54.55:437][118]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2018.09.25-11.54.55:798][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.355217s)
-[2018.09.25-11.54.55:835][118]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.09.25-11.54.55:869][118]LogPlayLevel: PIE: World Init took: (0.070215s)
-[2018.09.25-11.54.55:870][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.434069s)
-[2018.09.25-11.54.56:138][118]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.25-11.54.56:211][118]LogInit: FAudioDevice initialized.
-[2018.09.25-11.54.56:297][118]LogLoad: Game class is 'FlyingGameMode_C'
-[2018.09.25-11.54.56:535][118]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2018.09.25-13.54.56
-[2018.09.25-11.54.56:578][118]LogWorld: Bringing up level for play took: 0.195040
-[2018.09.25-11.54.57:484][118]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.1020 seconds. Added 10 classes and 0 folders.
-[2018.09.25-11.54.57:535][118]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 2,241
-[2018.09.25-11.54.57:535][118]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.54.57:555][118]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:156][119]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:295][120]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:331][121]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:348][122]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:378][123]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:396][124]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:418][125]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:440][126]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:465][127]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:497][128]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:514][129]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:530][130]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:547][131]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:563][132]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:580][133]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:597][134]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:614][135]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:630][136]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:647][137]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:664][138]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:680][139]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:719][140]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:735][141]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:752][142]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:768][143]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:785][144]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:802][145]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:819][146]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:835][147]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:852][148]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:868][149]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:885][150]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:902][151]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:918][152]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:936][153]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:952][154]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:968][155]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.58:985][156]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:006][157]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:019][158]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:035][159]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:052][160]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:068][161]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:085][162]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:102][163]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:118][164]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:135][165]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:151][166]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:168][167]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:185][168]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:202][169]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:218][170]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:235][171]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:252][172]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:268][173]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:285][174]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:302][175]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:319][176]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:335][177]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:352][178]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:368][179]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:385][180]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:402][181]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:418][182]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:435][183]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:452][184]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:468][185]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:485][186]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:502][187]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:518][188]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:535][189]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:552][190]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:569][191]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:585][192]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:602][193]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:618][194]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:635][195]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:652][196]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:668][197]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:685][198]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:702][199]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:718][200]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:735][201]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:752][202]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:768][203]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:785][204]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:802][205]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:819][206]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:835][207]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:852][208]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:868][209]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:885][210]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:903][211]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:918][212]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:935][213]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:952][214]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:968][215]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.54.59:985][216]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:002][217]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:018][218]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:035][219]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:052][220]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:069][221]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:085][222]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:102][223]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:118][224]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:135][225]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:152][226]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:168][227]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:185][228]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:202][229]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:219][230]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:235][231]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:251][232]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.00:274][233]LogOutputDevice: Warning: 
-
-Script Stack:
-AiFlyingPawn_C.ExecuteUbergraph_AiFlyingPawn
-AiFlyingPawn_C.ReceiveTick
-
-[2018.09.25-11.55.01:685][233]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.409 s
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: === Handled ensure: ===
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: 
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 611]
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: 
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: Stack: 
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffae7771e6 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffae4b0c82 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffae4cb346 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f50aa8a UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4e7cd0 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f487a31 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4fd2d0 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4bd211 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f02ef98 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fff8ef8d1cc UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffad906467 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb1169e UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb31b86 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb1204d UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb31b86 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.01:685][233]LogOutputDevice: Error: [Callstack] 0x00007fffad906467 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb31123 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f037fe3 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff903872da UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f056b2e UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f0572bc UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f0155e0 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff90210a7d UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fffae331f92 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fffae332456 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fffae346d25 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff90264ec4 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff90274152 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f978784 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f983fa3 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8db57335 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fff8e44f646 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd265cbd UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd275b3c UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd275bba UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd283dac UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd285aaa UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fffe5433034 KERNEL32.DLL!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: [Callstack] 0x00007fffe7d21461 ntdll.dll!UnknownFunction []
-[2018.09.25-11.55.01:686][233]LogOutputDevice: Error: 
-[2018.09.25-11.55.01:698][233]LogStats:                SubmitErrorReport -  0.001 s
-[2018.09.25-11.55.15:782][233]LogStats:                    SendNewReport - 14.084 s
-[2018.09.25-11.55.15:783][233]LogStats:             FDebug::EnsureFailed - 15.509 s
-[2018.09.25-11.55.15:793][233]LogOutputDevice: Warning: 
-
-Script Stack:
-AiFlyingPawn_C.ExecuteUbergraph_AiFlyingPawn
-AiFlyingPawn_C.ReceiveTick
-
-[2018.09.25-11.55.15:796][233]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.003 s
-[2018.09.25-11.55.15:796][233]LogOutputDevice: Error: === Handled ensure: ===
-[2018.09.25-11.55.15:796][233]LogOutputDevice: Error: 
-[2018.09.25-11.55.15:796][233]LogOutputDevice: Error: Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2781]
-[2018.09.25-11.55.15:796][233]LogOutputDevice: Error: SetBodyTransform contains NaN (/Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap:PersistentLevel.AiFlyingPawn_2.Plane mesh)
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: 84090434144933347066771188965919686656.000000,inf,83076749736557242056487941267521536000.000000|0.000000,0.000000,0.000000|0.500000,0.500000,0.500000
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: Stack: 
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffae7771e6 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffae4b0c82 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffae4cb346 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8fd220f4 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f498024 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f48a87e UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4f1250 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f50ab14 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4e7cd0 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f487a31 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4fd2d0 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4bd211 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f02ef98 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8ef8d1cc UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffad906467 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb1169e UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb31b86 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb1204d UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb31b86 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffad906467 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffadb31123 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f037fe3 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff903872da UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f056b2e UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f0572bc UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f0155e0 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff90210a7d UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffae331f92 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffae332456 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffae346d25 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff90264ec4 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff90274152 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f978784 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f983fa3 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8db57335 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fff8e44f646 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd265cbd UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd275b3c UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd275bba UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd283dac UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd285aaa UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffe5433034 KERNEL32.DLL!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: [Callstack] 0x00007fffe7d21461 ntdll.dll!UnknownFunction []
-[2018.09.25-11.55.15:797][233]LogOutputDevice: Error: 
-[2018.09.25-11.55.15:802][233]LogStats:                SubmitErrorReport -  0.000 s
-[2018.09.25-11.55.16:308][233]LogStats:                    SendNewReport -  0.506 s
-[2018.09.25-11.55.16:308][233]LogStats:             FDebug::EnsureFailed -  0.515 s
-[2018.09.25-11.55.16:308][233]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.16:315][233]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.005 s
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: === Handled ensure: ===
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: 
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 985]
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: Nans found on Bounds for Primitive Plane mesh: Origin X=84090434144933347066771188965919686656.000 Y=inf Z=83076749736557242056487941267521536000.000, BoxExtent X=31.359 Y=25.000 Z=14.134, SphereRadius 35.311810
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: Stack: 
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fffae7771e6 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fffae4b0c82 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fffae4cb346 UE4Editor-Core.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8afc47bf UE4Editor-Renderer.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f4989d0 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f3a4a49 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f933214 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f967528 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f97951a UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8af4892e UE4Editor-Renderer.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8f7892d3 UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff901f978a UE4Editor-Engine.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8db57d3d UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fff8e44f646 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd265cbd UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd275b3c UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd275bba UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd283dac UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007ff6bd285aaa UE4Editor.exe!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fffe5433034 KERNEL32.DLL!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: [Callstack] 0x00007fffe7d21461 ntdll.dll!UnknownFunction []
-[2018.09.25-11.55.16:316][233]LogOutputDevice: Error: 
-[2018.09.25-11.55.16:327][233]LogStats:                SubmitErrorReport -  0.000 s
-[2018.09.25-11.55.16:870][233]LogStats:                    SendNewReport -  0.544 s
-[2018.09.25-11.55.16:870][233]LogStats:             FDebug::EnsureFailed -  0.561 s
-[2018.09.25-11.55.16:920][234]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-11.55.16:971][234]LogBlueprintUserMessages: [AiFlyingPawn_2] X=0.000 Y=0.000 Z=0.000
-[2018.09.25-11.55.16:974][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.55.16:987][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-11.55.17:255][234]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.25-11.55.17:255][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.55.17:377][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-11.55.17:529][235]Cmd: SELECT NONE
-[2018.09.25-11.55.17:563][235]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2018.09.25-11.55.20:404][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-11.55.20:566][380]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn
-[2018.09.25-11.55.49:131][867]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiFlyingPawn577329B6497428B49F5D119EA4F1CE1F.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.uasset'
-[2018.09.25-11.55.49:541][887]BlueprintLog: New page: Compile AiFlyingPawn
-[2018.09.25-11.55.49:623][887]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.25-11.55.49:662][887]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.25-11.55.50:165][887]LogBlueprint: Warning: [Compiler AiFlyingPawn] [6028,96] Compile of AiFlyingPawn successful, but with 2 Warning(s) [in 623 ms] (/Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn)
-[2018.09.25-11.56.19:287][597]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiFlyingPawnD16BE0704E1A67BA6FFE7ABF22D21DA1.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.uasset'
-[2018.09.25-11.56.26:050][987]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.25-11.56.26:119][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.56.26:121][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.25-11.56.26:122][987]PIE: New page: PIE session: FlyingExampleMap (25/set/2018 15:56:26)
-[2018.09.25-11.56.26:159][987]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2018.09.25-11.56.26:187][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027471s)
-[2018.09.25-11.56.26:189][987]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.09.25-11.56.26:189][987]LogPlayLevel: PIE: World Init took: (0.001991s)
-[2018.09.25-11.56.26:189][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.029816s)
-[2018.09.25-11.56.26:318][987]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.25-11.56.26:357][987]LogInit: FAudioDevice initialized.
-[2018.09.25-11.56.26:393][987]LogLoad: Game class is 'FlyingGameMode_C'
-[2018.09.25-11.56.26:401][987]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2018.09.25-13.56.26
-[2018.09.25-11.56.26:402][987]LogWorld: Bringing up level for play took: 0.006962
-[2018.09.25-11.56.26:416][987]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 1,123
-[2018.09.25-11.56.26:416][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.56.35:613][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.56.35:647][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-11.56.35:722][519]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.25-11.56.35:722][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.56.35:787][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-11.56.35:849][520]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2018.09.25-11.56.41:116][669]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-11.58.31:778][187]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.25-11.58.36:422][432]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiFlyingPawn2612F07445487C62D194A5A6950263A9.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.uasset'
-[2018.09.25-11.58.37:156][466]BlueprintLog: New page: Compile AiFlyingPawn
-[2018.09.25-11.58.37:187][466]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.25-11.58.37:250][466]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.25-11.58.37:613][466]LogBlueprint: Warning: [Compiler AiFlyingPawn] [6196,41] Compile of AiFlyingPawn successful, but with 2 Warning(s) [in 457 ms] (/Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn)
-[2018.09.25-11.58.43:763][795]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.25-11.58.43:794][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.58.43:797][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.25-11.58.43:797][795]PIE: New page: PIE session: FlyingExampleMap (25/set/2018 15:58:43)
-[2018.09.25-11.58.43:797][795]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2018.09.25-11.58.43:877][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079594s)
-[2018.09.25-11.58.43:879][795]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.09.25-11.58.43:879][795]LogPlayLevel: PIE: World Init took: (0.001905s)
-[2018.09.25-11.58.43:879][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.081913s)
-[2018.09.25-11.58.43:938][795]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.25-11.58.43:987][795]LogInit: FAudioDevice initialized.
-[2018.09.25-11.58.44:034][795]LogLoad: Game class is 'FlyingGameMode_C'
-[2018.09.25-11.58.44:077][795]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2018.09.25-13.58.44
-[2018.09.25-11.58.44:079][795]LogWorld: Bringing up level for play took: 0.007828
-[2018.09.25-11.58.44:094][795]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0,801
-[2018.09.25-11.58.44:094][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.58.52:597][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-11.59.06:414][ 55]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.59.06:417][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-11.59.06:457][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.25-11.59.06:457][ 55]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-11.59.06:493][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-11.59.06:572][ 56]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2018.09.25-11.59.23:169][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-11.59.34:590][893]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/AIPlane/AiPlaneController.AiPlaneController
-[2018.09.25-12.00.21:346][707]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMap_Auto0F56E661E490C9B7726D65B965F4AF10B.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto0.umap'
-[2018.09.25-12.00.21:367][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.501
-[2018.09.25-12.00.21:367][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.501
-[2018.09.25-12.00.21:373][707]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree] ([1] browsable assets)...
-[2018.09.25-12.00.21:373][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree]
-[2018.09.25-12.00.21:410][707]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneThree_Auto0DBC90243454E3EF1F987CEAD1AFE9416.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/AiPlaneThree_Auto0.uasset'
-[2018.09.25-12.00.21:417][707]LogFileHelpers: Auto-saving content packages took 0.048
-[2018.09.25-12.00.45:278][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ground_2)
-[2018.09.25-12.00.46:106][152]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-12.00.47:006][202]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.25-12.00.47:035][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.00.47:038][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.25-12.00.47:038][202]PIE: New page: PIE session: FlyingExampleMap (25/set/2018 16:00:47)
-[2018.09.25-12.00.47:039][202]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2018.09.25-12.00.47:066][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027689s)
-[2018.09.25-12.00.47:067][202]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.09.25-12.00.47:068][202]LogPlayLevel: PIE: World Init took: (0.001546s)
-[2018.09.25-12.00.47:068][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.029517s)
-[2018.09.25-12.00.47:128][202]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.25-12.00.47:168][202]LogInit: FAudioDevice initialized.
-[2018.09.25-12.00.47:168][202]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-12.00.47:197][202]LogLoad: Game class is 'FlyingGameMode_C'
-[2018.09.25-12.00.47:203][202]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 60) at 2018.09.25-14.00.47
-[2018.09.25-12.00.47:204][202]LogWorld: Bringing up level for play took: 0.005708
-[2018.09.25-12.00.47:218][202]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0,075
-[2018.09.25-12.00.47:218][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.00.53:989][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.00.53:992][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-12.00.54:036][594]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.25-12.00.54:037][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.00.54:076][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-12.00.54:144][595]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2018.09.25-12.00.55:887][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.01.10:230][536]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2018.09.25-12.01.10:230][536]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2018.09.25-12.01.10:230][536]LogClass: Warning: In asset 'None', there is an enum property of type 'EAutoReceiveInput' with an invalid value of ''
-[2018.09.25-12.01.11:617][618]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.25-12.01.13:614][709]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-12.02.21:144][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.05.53:910][ 73]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneControllerE129B94D42E941B425FB24BA6EBE4C0B.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneController.uasset'
-[2018.09.25-12.05.54:319][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.05.54:389][119]BlueprintLog: New page: Compile AiPlaneController
-[2018.09.25-12.05.56:264][225]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiFlyingPawn5B7836834FD3088F478988AA02D27EBE.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.uasset'
-[2018.09.25-12.05.56:603][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.05.56:647][254]BlueprintLog: New page: Compile AiFlyingPawn
-[2018.09.25-12.05.56:677][254]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.25-12.05.56:732][254]LogBlueprint: Warning: [Compiler AiFlyingPawn] Variable Enemy is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
-[2018.09.25-12.05.56:958][254]LogBlueprint: Warning: [Compiler AiFlyingPawn] [6635,75] Compile of AiFlyingPawn successful, but with 2 Warning(s) [in 310 ms] (/Game/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.AiFlyingPawn)
-[2018.09.25-12.06.07:686][201]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiFlyingPawn9FA051D2455224D3A5160789E7533AE7.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiFlyingPawn.uasset'
-[2018.09.25-12.06.08:130][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.06.08:196][242]BlueprintLog: New page: Compile AiFlyingPawn
-[2018.09.25-12.06.14:968][898]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/RapidMoveToF9EFD8B24487AE460DE23EA77C64D287.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/RapidMoveTo.uasset'
-[2018.09.25-12.06.15:279][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.06.15:316][932]BlueprintLog: New page: Compile RapidMoveTo
-[2018.09.25-12.10.29:357][187]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMap_Auto10AF6BD7E47F9716D385BCAB7D26DED68.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Maps/FlyingExampleMap_Auto1.umap'
-[2018.09.25-12.10.29:370][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.379
-[2018.09.25-12.10.29:370][187]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.379
-[2018.09.25-12.10.29:375][187]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneController] ([1] browsable assets)...
-[2018.09.25-12.10.29:375][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/AiPlaneController]
-[2018.09.25-12.10.29:407][187]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneController_Auto1F88B10194163B53168479AADF30252A1.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/AiPlaneController_Auto1.uasset'
-[2018.09.25-12.10.29:413][187]LogFileHelpers: Auto-saving content packages took 0.041
-[2018.09.25-12.12.47:724][789]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2018.09.25-12.13.17:422][556]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.25-12.13.17:458][556]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.13.17:461][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.25-12.13.17:461][556]PIE: New page: PIE session: FlyingExampleMap (25/set/2018 16:13:17)
-[2018.09.25-12.13.17:461][556]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2018.09.25-12.13.17:567][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105855s)
-[2018.09.25-12.13.17:568][556]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.09.25-12.13.17:569][556]LogPlayLevel: PIE: World Init took: (0.001417s)
-[2018.09.25-12.13.17:569][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.107635s)
-[2018.09.25-12.13.17:607][556]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.25-12.13.17:647][556]LogInit: FAudioDevice initialized.
-[2018.09.25-12.13.17:684][556]LogLoad: Game class is 'FlyingGameMode_C'
-[2018.09.25-12.13.17:690][556]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.09.25-14.13.17
-[2018.09.25-12.13.17:693][556]LogWorld: Bringing up level for play took: 0.007112
-[2018.09.25-12.13.17:707][556]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap 0,415
-[2018.09.25-12.13.17:708][556]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.13.21:992][785]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.13.24:044][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.13.24:046][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-12.13.24:520][938]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.25-12.13.24:520][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.13.24:551][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-12.13.24:578][939]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2018.09.25-12.14.34:726][261]LogTemp: Repeating last play command: Selected Viewport
-[2018.09.25-12.14.34:756][261]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.14.34:759][261]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.09.25-12.14.34:759][261]PIE: New page: PIE session: FlyingExampleMap (25/set/2018 16:14:34)
-[2018.09.25-12.14.34:759][261]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap
-[2018.09.25-12.14.35:068][261]LogPlayLevel: PIE: StaticDuplicateObject took: (0.309413s)
-[2018.09.25-12.14.35:069][261]LogAIModule: Creating AISystem for world FlyingExampleMap
-[2018.09.25-12.14.35:070][261]LogPlayLevel: PIE: World Init took: (0.001670s)
-[2018.09.25-12.14.35:070][261]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap to /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap (0.311352s)
-[2018.09.25-12.14.35:115][261]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.09.25-12.14.35:157][261]LogInit: FAudioDevice initialized.
-[2018.09.25-12.14.35:268][261]LogLoad: Game class is 'FlyingGameMode_C'
-[2018.09.25-12.14.35:276][261]LogWorld: Bringing World /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap.FlyingExampleMap up for play (max tick rate 0) at 2018.09.25-14.14.35
-[2018.09.25-12.14.35:277][261]LogWorld: Bringing up level for play took: 0.008087
-[2018.09.25-12.14.35:292][261]PIE: Play in editor start time for /Game/FlyingBP/Maps/UEDPIE_0_FlyingExampleMap -0,001
-[2018.09.25-12.14.35:293][261]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.14.39:309][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.14.47:883][191]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.14.47:886][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-12.14.47:934][191]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.09.25-12.14.47:934][191]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap' with GeneratedClass '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/FlyingExampleMap.FlyingExampleMap:PersistentLevel.FlyingExampleMap'
-[2018.09.25-12.14.47:966][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.25-12.14.48:068][192]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2018.09.25-12.14.48:952][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.20.49:443][645]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/FlyingExampleMap' took 0.038
-[2018.09.25-12.20.49:447][645]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy] ([1] browsable assets)...
-[2018.09.25-12.20.49:447][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy]
-[2018.09.25-12.20.49:509][645]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemy_Auto251D557BE4CE2FEA4A87747BC55486EB7.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy_Auto2.uasset'
-[2018.09.25-12.20.49:515][645]LogFileHelpers: Auto-saving content packages took 0.071
-[2018.09.25-12.27.04:441][839]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FindPlaneEnemy63E456784C4E564A1EEA3E8B1F54CDBF.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/FindPlaneEnemy.uasset'
-[2018.09.25-12.27.04:896][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.27.06:584][ 26]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneControllerCADAA2764D22A9DFF9EED189081080F5.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneController.uasset'
-[2018.09.25-12.27.07:654][115]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-12.27.09:513][283]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneController274C09FF4A61461733A163B73B6E61CC.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneController.uasset'
-[2018.09.25-12.27.10:155][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.27.10:230][352]LogSlate: Window 'AiPlaneController' being destroyed
-[2018.09.25-12.27.10:236][352]LogSlate: Window 'AiPlaneController' being destroyed
-[2018.09.25-12.27.11:331][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.09.25-12.27.11:542][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.09.25-12.27.13:776][362]LogSlate: Window 'Save Content' being destroyed
-[2018.09.25-12.27.13:792][362]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.09.25-12.27.13:846][362]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/AiPlaneThree9E48486D4EB77C906D5081989E7DA4A3.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/AIPlane/AiPlaneThree.uasset'
-[2018.09.25-12.27.17:393][362]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/FlyingExampleMapB168233A4B6A6A722F6D05887DA69363.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/FlyingExampleMap.umap'
-[2018.09.25-12.27.17:458][362]LogFileHelpers: Saving map 'FlyingExampleMap' took 3.592
-[2018.09.25-12.27.17:616][362]LogSlate: Window 'PlaneTest2 - Unreal Editor' being destroyed
-[2018.09.25-12.27.17:619][362]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.25-12.27.18:395][363]Cmd: QUIT_EDITOR
-[2018.09.25-12.27.19:320][363]LogExit: Preparing to exit.
+[2019.07.23-18.26.43:911][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.23-18.26.43:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.23-18.26.43:931][  0]LogHAL: Display: Platform has ~ 8 GB [8469180416 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.23-18.26.43:931][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.23-18.26.43:931][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.23-18.26.43:932][  0]LogInit: Computer: DESKTOP-O2TJ2H8
+[2019.07.23-18.26.43:932][  0]LogInit: User: NttdataSky
+[2019.07.23-18.26.43:932][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.23-18.26.43:932][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2019.07.23-18.26.43:932][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.07.23-18.26.43:932][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.23-18.26.43:932][  0]LogMemory: Process Physical Memory: 102.06 MB used, 102.06 MB peak
+[2019.07.23-18.26.43:932][  0]LogMemory: Process Virtual Memory: 89.53 MB used, 89.53 MB peak
+[2019.07.23-18.26.43:932][  0]LogMemory: Physical Memory: 5623.02 MB used,  2453.82 MB free, 8076.84 MB total
+[2019.07.23-18.26.43:932][  0]LogMemory: Virtual Memory: 4644.05 MB used,  2453.82 MB free, 134217728.00 MB total
+[2019.07.23-18.26.43:969][  0]LogInit: Using OS detected language (it-IT).
+[2019.07.23-18.26.43:969][  0]LogInit: Using OS detected locale (it-IT).
+[2019.07.23-18.26.43:970][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
+[2019.07.23-18.26.43:974][  0]LogStreaming: Display: Took  0.006s to InitEngineTextLocalization.
+[2019.07.23-18.26.43:974][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.23-18.26.44:016][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.23-18.26.44:016][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.23-18.26.44:411][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.23-18.26.44:411][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.23-18.26.44:516][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.07.23-18.26.44:516][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.07.23-18.26.44:526][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.07.23-18.26.44:526][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.07.23-18.26.44:530][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.23-18.26.44:530][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.23-18.26.44:530][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.23-18.26.44:570][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.23-18.26.44:570][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.07.23-18.26.44:570][  0]LogWindows: EnumDisplayDevices:
+[2019.07.23-18.26.44:570][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.07.23-18.26.44:571][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.07.23-18.26.44:572][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.07.23-18.26.44:572][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.07.23-18.26.44:572][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.07.23-18.26.44:572][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.07.23-18.26.44:572][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.07.23-18.26.44:572][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.07.23-18.26.44:637][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.23-18.26.44:650][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.23-18.26.44:652][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Intermediate/Shaders/WorkingDirectory/4928/).
+[2019.07.23-18.26.44:652][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NttdataSky/AppData/Local/Temp/UnrealShaderWorkingDir/DF39F09F4DC635CB054F7E9A1A4CCE47/'.
+[2019.07.23-18.26.46:190][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.23-18.26.46:309][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.23-18.26.46:425][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.23-18.26.46:541][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.23-18.26.46:653][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.23-18.26.46:769][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.23-18.26.46:892][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.23-18.26.47:004][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.23-18.26.47:057][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.23-18.26.47:704][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:705][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.23-18.26.47:714][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.23-18.26.47:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.23-18.26.47:955][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.23-18.26.48:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.23-18.26.48:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.23-18.26.48:246][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.23-18.26.48:340][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.23-18.26.48:435][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.23-18.26.48:534][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.23-18.26.48:607][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.23-18.26.48:608][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.23-18.26.49:094][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.23-18.26.49:095][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.23-18.26.49:095][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.23-18.26.52:612][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.23-18.26.52:691][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.23-18.26.52:692][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.23-18.26.52:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.23-18.26.52:692][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.23-18.26.52:692][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.23-18.26.52:692][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.23-18.26.52:716][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.23-18.26.52:729][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NttdataSky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.23-18.26.52:729][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.23-18.26.52:729][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.23-18.26.52:760][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.23-18.26.52:762][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.23-18.26.52:763][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.23-18.26.52:896][  0]LogAssetRegistry: FAssetRegistry took 0.0537 seconds to start up
+[2019.07.23-18.26.53:497][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.23-18.26.53:729][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.23-18.26.53:737][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.23-18.26.53:737][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.23-18.26.53:737][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.23-18.26.53:737][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.23-18.26.53:767][  0]LogNetVersion: PlaneTest2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1907551874)
+[2019.07.23-18.26.54:613][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.171543 seconds
+[2019.07.23-18.26.54:623][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.23-18.26.54:623][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.07.23-18.26.54:623][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.23-18.26.58:991][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.23-18.26.59:020][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.23-18.26.59:673][  0]SourceControl: Source control is disabled
+[2019.07.23-18.26.59:674][  0]SourceControl: Source control is disabled
+[2019.07.23-18.26.59:683][  0]SourceControl: Source control is disabled
+[2019.07.23-18.26.59:688][  0]SourceControl: Source control is disabled
+[2019.07.23-18.27.00:217][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.23-18.27.00:563][  0]LogOcInput: OculusInput pre-init called
+[2019.07.23-18.27.00:865][  0]LogEngine: Initializing Engine...
+[2019.07.23-18.27.00:871][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.23-18.27.00:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.23-18.27.00:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.23-18.27.00:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.001 s
+[2019.07.23-18.27.00:882][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.23-18.27.02:010][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.23-18.27.02:094][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.23-18.27.02:112][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.23-18.27.02:186][  0]LogInit: FAudioDevice initialized.
+[2019.07.23-18.27.02:187][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.23-18.27.02:349][  0]LogDerivedDataCache: Saved boot cache 0.16s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.23-18.27.02:357][  0]LogInit: Texture streaming: Enabled
+[2019.07.23-18.27.02:394][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.23-18.27.02:417][  0]LogInit: Transaction tracking system initialized
+[2019.07.23-18.27.02:456][  0]BlueprintLog: New page: Editor Load
+[2019.07.23-18.27.02:581][  0]LocalizationService: Localization service is disabled
+[2019.07.23-18.27.03:276][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.23-18.27.03:276][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.23-18.27.03:276][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.23-18.27.03:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.23-18.27.03:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.23-18.27.03:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.23-18.27.03:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.23-18.27.03:473][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/' took 0.08s
+[2019.07.23-18.27.03:473][  0]SourceControl: Source control is disabled
+[2019.07.23-18.27.03:474][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.23-18.27.03:474][  0]LightingResults: New page: Lighting Build
+[2019.07.23-18.27.03:479][  0]MapCheck: New page: Map Check
+[2019.07.23-18.27.03:479][  0]LightingResults: New page: Lighting Build
+[2019.07.23-18.27.04:760][  0]LogAIModule: Creating AISystem for world TestMap
+[2019.07.23-18.27.04:784][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.23-18.27.04:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.23-18.27.04:969][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 158,073ms to complete.
+[2019.07.23-18.27.04:969][  0]LogFileHelpers: Loading map 'TestMap' took 1.496
+[2019.07.23-18.27.05:066][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-18.27.05:074][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-18.27.05:083][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-18.27.05:092][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.23-18.27.05:105][  0]LogCollectionManager: Loaded 0 collections in 0.003986 seconds
+[2019.07.23-18.27.05:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Collections/' took 0.01s
+[2019.07.23-18.27.05:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Developers/NttdataSky/Collections/' took 0.01s
+[2019.07.23-18.27.05:148][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Collections/' took 0.01s
+[2019.07.23-18.27.05:148][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.23-18.27.05:159][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2572 classes and 603 folders.
+[2019.07.23-18.27.05:168][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.23-18.27.05:498][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.07.23-18.27.05:529][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2019.07.23-18.27.05:956][  0]LogSlate: Took 0.000979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.23-18.27.05:968][  0]LogSlate: Took 0.000944 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.23-18.27.05:999][  0]LogSlate: Took 0.001323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.23-18.27.06:444][  0]LogRenderer: Reallocating scene render targets to support 544x320 Format 10 NumSamples 1 (Frame:1).
+[2019.07.23-18.27.06:910][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.07.23-18.27.06:911][  0]LogLoad: (Engine Initialization) Total time: 30.78 seconds
+[2019.07.23-18.27.06:911][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.23-18.27.06:992][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.23-18.27.07:259][  2]LogSlate: Took 0.000953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.23-18.27.08:148][ 16]LogAssetRegistry: Asset discovery search completed in 15.2986 seconds
+[2019.07.23-18.27.08:161][ 16]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.07.23-18.27.08:161][ 16]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000380 seconds (updated 0 objects)
