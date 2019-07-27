@@ -1,4 +1,4 @@
-﻿Log file open, 07/27/19 18:58:42
+﻿Log file open, 07/27/19 19:03:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlaneTest2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.321236
+LogStats: Stats thread started at 0.333405
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -96,7 +96,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.123s to configure plugins.
+LogStreaming: Display: Took  0.234s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -121,7 +121,7 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -150,192 +150,340 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.008s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.07.27-16.58.43:154][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.27-16.58.43:154][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.07.27-16.58.43:206][  0]LogHAL: Display: Platform has ~ 16 GB [16989323264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.07.27-16.58.43:206][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.07.27-16.58.43:206][  0]LogInit: Going up to parent DeviceProfile []
-[2019.07.27-16.58.43:207][  0]LogInit: Computer: DESKTOP-O5KU02M
-[2019.07.27-16.58.43:207][  0]LogInit: User: gio2
-[2019.07.27-16.58.43:207][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.07.27-16.58.43:207][  0]LogInit: High frequency timer resolution =2.531248 MHz
-[2019.07.27-16.58.43:207][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.07.27-16.58.43:207][  0]LogMemory: Platform Memory Stats for Windows
-[2019.07.27-16.58.43:207][  0]LogMemory: Process Physical Memory: 109.84 MB used, 109.84 MB peak
-[2019.07.27-16.58.43:207][  0]LogMemory: Process Virtual Memory: 94.73 MB used, 94.73 MB peak
-[2019.07.27-16.58.43:207][  0]LogMemory: Physical Memory: 5414.88 MB used,  10787.40 MB free, 16202.28 MB total
-[2019.07.27-16.58.43:207][  0]LogMemory: Virtual Memory: 4649.64 MB used,  10787.40 MB free, 134217728.00 MB total
-[2019.07.27-16.58.43:241][  0]LogInit: Using OS detected language (it-IT).
-[2019.07.27-16.58.43:241][  0]LogInit: Using OS detected locale (it-IT).
-[2019.07.27-16.58.43:242][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
-[2019.07.27-16.58.43:244][  0]LogStreaming: Display: Took  0.003s to InitEngineTextLocalization.
-[2019.07.27-16.58.43:244][  0]LogInit: Setting process to per monitor DPI aware
-[2019.07.27-16.58.43:306][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.07.27-16.58.43:306][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.07.27-16.58.43:623][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.27-16.58.43:623][  0]LogD3D11RHI: D3D11 adapters:
-[2019.07.27-16.58.43:701][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2019.07.27-16.58.43:701][  0]LogD3D11RHI:       4055/0/8101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.07.27-16.58.43:826][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
-[2019.07.27-16.58.43:826][  0]LogD3D11RHI:       128/0/8101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.07.27-16.58.43:829][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.07.27-16.58.43:829][  0]LogD3D11RHI:       0/0/8101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.07.27-16.58.43:829][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.07.27-16.58.43:889][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.07.27-16.58.43:889][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2019.07.27-16.58.43:889][  0]LogWindows: EnumDisplayDevices:
-[2019.07.27-16.58.43:889][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
-[2019.07.27-16.58.43:890][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.07.27-16.58.43:890][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
-[2019.07.27-16.58.43:890][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.07.27-16.58.43:890][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2019.07.27-16.58.43:890][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.07.27-16.58.43:890][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.07.27-16.58.43:891][  0]LogRHI: Texture pool is 2839 MB (70% of 4055 MB)
-[2019.07.27-16.58.43:941][  0]LogD3D11RHI: Async texture creation enabled
-[2019.07.27-16.58.43:959][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.07.27-16.58.43:961][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../../Users/gio2/Documents/GitHub/testPlane/Intermediate/Shaders/WorkingDirectory/20896/).
-[2019.07.27-16.58.43:961][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gio2/AppData/Local/Temp/UnrealShaderWorkingDir/CDB579344A0FA8E73276CA8A3866DDBB/'.
-[2019.07.27-16.58.44:349][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.07.27-16.58.44:368][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.07.27-16.58.44:389][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.07.27-16.58.44:408][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.07.27-16.58.44:429][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.07.27-16.58.44:453][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.07.27-16.58.44:481][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.07.27-16.58.44:504][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.07.27-16.58.44:515][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:645][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.27-16.58.44:647][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.07.27-16.58.44:721][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.07.27-16.58.44:721][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.07.27-16.58.44:751][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.07.27-16.58.44:751][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.07.27-16.58.44:766][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.07.27-16.58.44:782][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.07.27-16.58.44:798][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.07.27-16.58.44:814][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.07.27-16.58.44:826][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.07.27-16.58.44:826][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.07.27-16.58.44:919][  0]LogXGEController: Cleaning working directory: C:/Users/gio2/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.07.27-16.58.44:919][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.07.27-16.58.44:919][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.07.27-16.58.44:919][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.07.27-16.58.45:893][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.07.27-16.58.45:962][  0]LogDerivedDataCache: Loaded boot cache 0.07s 72MB C:/Users/gio2/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.07.27-16.58.45:963][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gio2/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.07.27-16.58.45:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gio2/Documents/GitHub/testPlane/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.07.27-16.58.45:963][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.07.27-16.58.45:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gio2/Documents/GitHub/testPlane/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.07.27-16.58.45:963][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.07.27-16.58.45:983][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.07.27-16.58.45:995][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gio2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.07.27-16.58.45:995][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.07.27-16.58.45:995][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.07.27-16.58.46:019][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.07.27-16.58.46:021][  0]LogSlate: Using FreeType 2.6.0
-[2019.07.27-16.58.46:022][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.07.27-16.58.46:110][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
-[2019.07.27-16.58.48:106][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.27-16.58.48:286][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.07.27-16.58.48:291][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.07.27-16.58.48:292][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.07.27-16.58.48:292][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.07.27-16.58.48:292][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.07.27-16.58.48:319][  0]LogNetVersion: PlaneTest2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1907551874)
-[2019.07.27-16.58.48:999][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.146848 seconds
-[2019.07.27-16.58.49:006][  0]LogUObjectArray: 38438 objects as part of root set at end of initial load.
-[2019.07.27-16.58.49:006][  0]LogUObjectAllocator: 6693856 out of 0 bytes used by permanent object pool.
-[2019.07.27-16.58.49:006][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.07.27-16.58.50:127][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.07.27-16.58.50:140][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.07.27-16.58.50:321][  0]SourceControl: Source control is disabled
-[2019.07.27-16.58.50:321][  0]SourceControl: Source control is disabled
-[2019.07.27-16.58.50:323][  0]SourceControl: Source control is disabled
-[2019.07.27-16.58.50:324][  0]SourceControl: Source control is disabled
-[2019.07.27-16.58.50:518][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.07.27-16.58.50:585][  0]LogOcInput: OculusInput pre-init called
-[2019.07.27-16.58.50:662][  0]LogEngine: Initializing Engine...
-[2019.07.27-16.58.50:663][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.27-16.58.50:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.07.27-16.58.50:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.07.27-16.58.50:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.07.27-16.58.50:665][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.07.27-16.58.50:943][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.07.27-16.58.50:964][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.07.27-16.58.50:986][  0]LogInit: XAudio2 using 'Cassa/Cuffie (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.07.27-16.58.51:246][  0]LogInit: FAudioDevice initialized.
-[2019.07.27-16.58.51:247][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.07.27-16.58.51:345][  0]LogDerivedDataCache: Saved boot cache 0.10s 72MB C:/Users/gio2/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.07.27-16.58.51:366][  0]LogInit: Texture streaming: Enabled
-[2019.07.27-16.58.51:393][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.07.27-16.58.51:393][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={6F6149E2-42E7-66D3-1912-CE8CEF72DE28}
-[2019.07.27-16.58.51:413][  0]LogInit: Transaction tracking system initialized
-[2019.07.27-16.58.51:451][  0]BlueprintLog: New page: Editor Load
-[2019.07.27-16.58.51:574][  0]LocalizationService: Localization service is disabled
-[2019.07.27-16.58.51:906][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.07.27-16.58.51:906][  0]LogCook: Display: Mobile HDR setting 0
-[2019.07.27-16.58.51:906][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.07.27-16.58.51:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.07.27-16.58.51:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.07.27-16.58.51:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.07.27-16.58.51:906][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.07.27-16.58.52:057][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/GitHub/testPlane/Content/' took 0.06s
-[2019.07.27-16.58.52:066][  0]SourceControl: Source control is disabled
-[2019.07.27-16.58.52:067][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gio2/Documents/GitHub/testPlane/Content/FlyingBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.07.27-16.58.52:067][  0]LightingResults: New page: Lighting Build
-[2019.07.27-16.58.52:072][  0]MapCheck: New page: Map Check
-[2019.07.27-16.58.52:072][  0]LightingResults: New page: Lighting Build
-[2019.07.27-16.58.54:291][  0]LogTemp: Display: Loaded shader GPUComputeScript for Niagara script GPUComputeScript from DDC
-[2019.07.27-16.58.54:294][  0]LogTemp: Display: Loaded shader GPUComputeScript for Niagara script GPUComputeScript from DDC
-[2019.07.27-16.58.54:469][  0]LogAIModule: Creating AISystem for world TestMap
-[2019.07.27-16.58.54:509][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.07.27-16.58.54:546][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.07.27-16.58.54:701][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 154,865ms to complete.
-[2019.07.27-16.58.54:701][  0]LogFileHelpers: Loading map 'TestMap' took 2.635
-[2019.07.27-16.58.54:831][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.27-16.58.54:839][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.27-16.58.54:848][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.27-16.58.54:857][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.27-16.58.54:867][  0]LogCollectionManager: Loaded 0 collections in 0.003147 seconds
-[2019.07.27-16.58.54:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/GitHub/testPlane/Saved/Collections/' took 0.01s
-[2019.07.27-16.58.54:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/GitHub/testPlane/Content/Developers/gio2/Collections/' took 0.01s
-[2019.07.27-16.58.54:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gio2/Documents/GitHub/testPlane/Content/Collections/' took 0.01s
-[2019.07.27-16.58.54:914][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.07.27-16.58.54:932][  0]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2689 classes and 625 folders.
-[2019.07.27-16.58.54:943][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.07.27-16.58.54:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.07.27-16.58.55:002][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.07.27-16.58.55:109][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.07.27-16.58.55:113][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.07.27-16.58.55:123][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.07.27-16.58.55:208][  0]LogRenderer: Reallocating scene render targets to support 1272x852 Format 10 NumSamples 1 (Frame:1).
-[2019.07.27-16.58.55:438][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.07.27-16.58.55:438][  0]LogLoad: (Engine Initialization) Total time: 14.38 seconds
-[2019.07.27-16.58.55:438][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.07.27-16.58.55:449][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.07.27-16.58.55:475][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.07.27-16.58.55:550][  2]LogNiagara: FNiagaraDummyRWBufferFloat InitRHI NiagaraRenderer::DummyFloat
-[2019.07.27-16.58.55:658][  3]LogAssetRegistry: Asset discovery search completed in 9.5714 seconds
-[2019.07.27-16.58.55:660][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.07.27-16.58.55:660][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2019.07.27-17.03.36:950][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.27-17.03.36:950][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.27-17.03.37:022][  0]LogHAL: Display: Platform has ~ 8 GB [8469180416 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.27-17.03.37:022][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.27-17.03.37:022][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.27-17.03.37:023][  0]LogInit: Computer: DESKTOP-O2TJ2H8
+[2019.07.27-17.03.37:023][  0]LogInit: User: NttdataSky
+[2019.07.27-17.03.37:023][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.27-17.03.37:023][  0]LogInit: High frequency timer resolution =2.742190 MHz
+[2019.07.27-17.03.37:023][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.07.27-17.03.37:023][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.27-17.03.37:023][  0]LogMemory: Process Physical Memory: 109.41 MB used, 109.41 MB peak
+[2019.07.27-17.03.37:023][  0]LogMemory: Process Virtual Memory: 95.36 MB used, 95.36 MB peak
+[2019.07.27-17.03.37:023][  0]LogMemory: Physical Memory: 6936.26 MB used,  1140.58 MB free, 8076.84 MB total
+[2019.07.27-17.03.37:023][  0]LogMemory: Virtual Memory: 4650.61 MB used,  1140.58 MB free, 134217728.00 MB total
+[2019.07.27-17.03.37:054][  0]LogInit: Using OS detected language (it-IT).
+[2019.07.27-17.03.37:054][  0]LogInit: Using OS detected locale (it-IT).
+[2019.07.27-17.03.37:056][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
+[2019.07.27-17.03.37:059][  0]LogStreaming: Display: Took  0.005s to InitEngineTextLocalization.
+[2019.07.27-17.03.37:059][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.27-17.03.37:088][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.27-17.03.37:088][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.27-17.03.37:415][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.27-17.03.37:415][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.27-17.03.37:513][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.07.27-17.03.37:513][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.07.27-17.03.37:522][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.07.27-17.03.37:522][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.07.27-17.03.37:525][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.27-17.03.37:525][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.27-17.03.37:525][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.27-17.03.37:563][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.27-17.03.37:563][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.07.27-17.03.37:563][  0]LogWindows: EnumDisplayDevices:
+[2019.07.27-17.03.37:563][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.07.27-17.03.37:564][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.07.27-17.03.37:564][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.07.27-17.03.37:565][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.07.27-17.03.37:565][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.07.27-17.03.37:565][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.07.27-17.03.37:565][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.07.27-17.03.37:565][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.07.27-17.03.37:624][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.27-17.03.37:637][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.27-17.03.37:639][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Intermediate/Shaders/WorkingDirectory/33192/).
+[2019.07.27-17.03.37:639][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NttdataSky/AppData/Local/Temp/UnrealShaderWorkingDir/706165384FF19B7D621677B33FAE94E5/'.
+[2019.07.27-17.03.38:010][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.27-17.03.38:029][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.27-17.03.38:046][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.27-17.03.38:065][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.27-17.03.38:084][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.27-17.03.38:103][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.27-17.03.38:121][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.27-17.03.38:142][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.27-17.03.38:152][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:258][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.27-17.03.38:260][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.27-17.03.38:332][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.27-17.03.38:332][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.27-17.03.38:358][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.27-17.03.38:358][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.27-17.03.38:372][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.27-17.03.38:386][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.27-17.03.38:401][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.27-17.03.38:416][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.27-17.03.38:426][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.27-17.03.38:426][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.27-17.03.38:522][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.27-17.03.38:522][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.27-17.03.38:522][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.27-17.03.39:573][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.27-17.03.39:633][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.27-17.03.39:634][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.27-17.03.39:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.27-17.03.39:634][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.27-17.03.39:634][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.27-17.03.39:634][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.27-17.03.39:651][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.27-17.03.39:664][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NttdataSky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.27-17.03.39:664][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.27-17.03.39:664][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.27-17.03.39:685][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.27-17.03.39:686][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.27-17.03.39:687][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.27-17.03.39:779][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2019.07.27-17.03.41:632][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.27-17.03.41:820][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.27-17.03.41:825][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.27-17.03.41:825][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.27-17.03.41:825][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.27-17.03.41:825][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.27-17.03.41:840][  0]LogNetVersion: PlaneTest2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1907551874)
+[2019.07.27-17.03.42:579][  0]LogPackageLocalizationCache: Processed 14 localized package path(s) for 2 prioritized culture(s) in 0.237256 seconds
+[2019.07.27-17.03.42:587][  0]LogUObjectArray: 38438 objects as part of root set at end of initial load.
+[2019.07.27-17.03.42:587][  0]LogUObjectAllocator: 6693856 out of 0 bytes used by permanent object pool.
+[2019.07.27-17.03.42:587][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.27-17.03.44:118][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.27-17.03.44:133][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.27-17.03.44:334][  0]SourceControl: Source control is disabled
+[2019.07.27-17.03.44:334][  0]SourceControl: Source control is disabled
+[2019.07.27-17.03.44:336][  0]SourceControl: Source control is disabled
+[2019.07.27-17.03.44:338][  0]SourceControl: Source control is disabled
+[2019.07.27-17.03.44:597][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.27-17.03.44:687][  0]LogOcInput: OculusInput pre-init called
+[2019.07.27-17.03.44:767][  0]LogEngine: Initializing Engine...
+[2019.07.27-17.03.44:768][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.27-17.03.44:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.27-17.03.44:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.27-17.03.44:771][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.27-17.03.44:771][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.27-17.03.45:182][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.27-17.03.45:208][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.27-17.03.45:227][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.07.27-17.03.45:305][  0]LogInit: FAudioDevice initialized.
+[2019.07.27-17.03.45:305][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.27-17.03.45:422][  0]LogDerivedDataCache: Saved boot cache 0.12s 79MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.27-17.03.45:440][  0]LogInit: Texture streaming: Enabled
+[2019.07.27-17.03.45:474][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.27-17.03.45:503][  0]LogInit: Transaction tracking system initialized
+[2019.07.27-17.03.45:543][  0]BlueprintLog: New page: Editor Load
+[2019.07.27-17.03.45:676][  0]LocalizationService: Localization service is disabled
+[2019.07.27-17.03.46:606][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.27-17.03.46:606][  0]LogCook: Display: Mobile HDR setting 0
+[2019.07.27-17.03.46:607][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.27-17.03.46:607][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.27-17.03.46:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.27-17.03.46:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.27-17.03.46:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.27-17.03.46:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/' took 0.11s
+[2019.07.27-17.03.46:824][  0]SourceControl: Source control is disabled
+[2019.07.27-17.03.46:824][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.27-17.03.46:833][  0]LightingResults: New page: Lighting Build
+[2019.07.27-17.03.46:838][  0]MapCheck: New page: Map Check
+[2019.07.27-17.03.46:838][  0]LightingResults: New page: Lighting Build
+[2019.07.27-17.03.52:090][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.07.27-17.03.52:192][  0]LogMaterial: Display: Missing cached shader map for material Beakable_Master_MeshEmit, compiling. 
+[2019.07.27-17.03.53:227][  0]LogShaderCompilers: Display: Shaders left to compile 88
+[2019.07.27-17.03.53:227][  0]LogShaderCompilers: Display: Shaders left to compile 78
+[2019.07.27-17.03.53:227][  0]LogShaderCompilers: Display: Shaders left to compile 68
+[2019.07.27-17.03.53:227][  0]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.07.27-17.03.53:227][  0]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.07.27-17.03.56:242][  0]LogTemp: Display: Loading shader for Niagara script GPUComputeScript from DDC failed. Shader needs recompile.
+[2019.07.27-17.03.56:248][  0]LogTemp: Display: Loading shader for Niagara script GPUComputeScript from DDC failed. Shader needs recompile.
+[2019.07.27-17.03.56:260][  0]LogTemp: Display: Loading shader for Niagara script GPUComputeScript from DDC failed. Shader needs recompile.
+[2019.07.27-17.03.56:401][  0]LogAIModule: Creating AISystem for world TestMap
+[2019.07.27-17.03.56:507][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.27-17.03.56:653][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.27-17.03.56:938][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 284,777ms to complete.
+[2019.07.27-17.03.56:938][  0]LogFileHelpers: Loading map 'TestMap' took 10.113
+[2019.07.27-17.03.57:189][  0]LogCollectionManager: Loaded 0 collections in 0.005665 seconds
+[2019.07.27-17.03.57:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Collections/' took 0.01s
+[2019.07.27-17.03.57:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Developers/NttdataSky/Collections/' took 0.01s
+[2019.07.27-17.03.57:293][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Collections/' took 0.01s
+[2019.07.27-17.03.57:293][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.07.27-17.03.57:323][  0]LogContentBrowser: Native class hierarchy populated in 0.0248 seconds. Added 2689 classes and 625 folders.
+[2019.07.27-17.03.57:362][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.27-17.03.58:024][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.27-17.03.58:150][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.27-17.03.58:169][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.27-17.03.58:185][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.27-17.03.58:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.27-17.03.58:235][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.07.27-17.03.58:680][  0]LogSlate: Took 0.013683 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.27-17.03.58:692][  0]LogSlate: Took 0.008300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.27-17.03.58:703][  0]LogSlate: Took 0.008536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.27-17.03.58:731][  0]LogSlate: Took 0.008215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.07.27-17.03.59:024][  0]LogRenderer: Reallocating scene render targets to support 336x436 Format 9 NumSamples 1 (Frame:1).
+[2019.07.27-17.04.03:794][  0]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.07.27-17.04.03:794][  0]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.07.27-17.04.03:794][  0]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.07.27-17.04.03:794][  0]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.07.27-17.04.03:817][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.07.27-17.04.03:817][  0]LogLoad: (Engine Initialization) Total time: 30.22 seconds
+[2019.07.27-17.04.03:817][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.27-17.04.03:830][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.27-17.04.03:839][  0]LogNiagaraShaderCompiler: Compile Job processing... NewNiagaraEmitter/FNiagaraShader/0
+[2019.07.27-17.04.04:924][  0]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.04:925][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.04:925][  0]LogPackageName: SearchForPackageOnDisk took   0.707s, but failed to resolve JW_FlameDungeon.
+[2019.07.27-17.04.04:925][  0]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2019.07.27-17.04.04:925][  0]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.04:926][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.04:926][  0]LogNiagaraShaderCompiler: GPU shader compile succeeded. Id 2
+[2019.07.27-17.04.04:926][  0]LogNiagaraShaderCompiler: Compile Job processing... Emitter/FNiagaraShader/0
+[2019.07.27-17.04.05:965][  0]LogPackageName: SearchForPackageOnDisk took   0.593s, but failed to resolve JW_FlameDungeon.
+[2019.07.27-17.04.05:965][  0]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2019.07.27-17.04.05:966][  0]LogNiagaraShaderCompiler: GPU shader compile succeeded. Id 3
+[2019.07.27-17.04.05:966][  0]LogNiagaraShaderCompiler: Compile Job processing... Emitter/FNiagaraShader/0
+[2019.07.27-17.04.06:961][  0]LogNiagaraShaderCompiler: GPU shader compile succeeded. Id 4
+[2019.07.27-17.04.07:009][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.07.27-17.04.07:097][  0]LogSlate: Took 0.008822 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.27-17.04.09:151][  4]LogNiagara: FNiagaraDummyRWBufferFloat InitRHI NiagaraRenderer::DummyFloat
+[2019.07.27-17.04.09:802][ 44]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.09:802][ 44]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.10:406][116]LogPackageName: SearchForPackageOnDisk took   0.603s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2019.07.27-17.04.10:406][116]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2019.07.27-17.04.10:694][150]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.10:695][150]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.11:322][224]LogPackageName: SearchForPackageOnDisk took   0.631s, but failed to resolve JW_Ice_Mountain.
+[2019.07.27-17.04.11:322][224]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2019.07.27-17.04.11:555][252]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.11:556][252]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.12:091][316]LogPackageName: SearchForPackageOnDisk took   0.541s, but failed to resolve FX_Meshes.
+[2019.07.27-17.04.12:091][316]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2019.07.27-17.04.12:124][320]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.12:125][320]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.12:694][388]LogPackageName: SearchForPackageOnDisk took   0.570s, but failed to resolve FX_Meshes.
+[2019.07.27-17.04.12:695][388]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2019.07.27-17.04.12:812][402]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.12:812][402]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.13:376][469]LogPackageName: SearchForPackageOnDisk took   0.571s, but failed to resolve 'FX_Ambient.
+[2019.07.27-17.04.13:376][469]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2019.07.27-17.04.13:452][478]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.13:452][478]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.14:012][545]LogPackageName: SearchForPackageOnDisk took   0.566s, but failed to resolve CastleEffects.
+[2019.07.27-17.04.14:013][545]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2019.07.27-17.04.14:669][623]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.14:669][623]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.15:247][692]LogPackageName: SearchForPackageOnDisk took   0.579s, but failed to resolve StaticMesh'FX_Meshes.
+[2019.07.27-17.04.15:247][692]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2019.07.27-17.04.15:266][694]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.15:266][694]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.15:789][756]LogPackageName: SearchForPackageOnDisk took   0.516s to resolve m_FogSheet_02.
+[2019.07.27-17.04.16:106][794]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.16:106][794]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.16:675][862]LogPackageName: SearchForPackageOnDisk took   0.570s, but failed to resolve FX_Test_LAN.
+[2019.07.27-17.04.16:676][862]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2019.07.27-17.04.17:573][969]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.17:574][969]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.18:095][ 31]LogPackageName: SearchForPackageOnDisk took   0.517s to resolve m_FogSheet_02.
+[2019.07.27-17.04.18:104][ 32]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.18:104][ 32]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.18:636][ 95]LogPackageName: SearchForPackageOnDisk took   0.526s to resolve m_FogSheet_02.
+[2019.07.27-17.04.18:637][ 95]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.18:637][ 95]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.19:167][158]LogPackageName: SearchForPackageOnDisk took   0.527s to resolve m_FogSheet_02.
+[2019.07.27-17.04.29:854][434]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.29:854][434]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.30:356][494]LogPackageName: SearchForPackageOnDisk took   0.507s, but failed to resolve JW_Ice_Mountain.
+[2019.07.27-17.04.30:357][494]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2019.07.27-17.04.30:405][500]LogPackageName: Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.30:406][500]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.30:885][557]LogPackageName: SearchForPackageOnDisk took   0.479s to resolve S_Survival_CA_Chicken_02.
+[2019.07.27-17.04.31:270][603]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.31:271][603]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.31:822][669]LogPackageName: SearchForPackageOnDisk took   0.550s, but failed to resolve JW_Ice_Mountain.
+[2019.07.27-17.04.31:822][669]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2019.07.27-17.04.31:848][672]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.07.27-17.04.31:848][672]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.07.27-17.04.32:358][733]LogPackageName: SearchForPackageOnDisk took   0.511s, but failed to resolve Env_ALL_Artifacts.
+[2019.07.27-17.04.32:358][733]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2019.07.27-17.04.38:056][413]LogAssetRegistry: Asset discovery search completed in 58.2995 seconds
+[2019.07.27-17.04.38:060][413]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.27-17.04.38:060][413]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000261 seconds (updated 0 objects)
+[2019.07.27-17.05.00:236][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.27-17.05.13:132][424]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.27-17.05.13:142][424]LogAssetEditorManager: Opening Asset editor for MapBuildDataRegistry /Game/FlyingBP/Maps/PlaneMap_BuiltData.PlaneMap_BuiltData
+[2019.07.27-17.05.17:712][891]LogSlate: Window 'PlaneMap_BuiltData - Generic Asset Editor' being destroyed
+[2019.07.27-17.05.17:716][891]LogSlate: Window 'PlaneMap_BuiltData - Generic Asset Editor' being destroyed
+[2019.07.27-17.05.20:976][185]LogAIModule: Creating AISystem for world PlaneMap
+[2019.07.27-17.05.20:992][185]LogAssetEditorManager: Opening Asset editor for World /Game/FlyingBP/Maps/PlaneMap.PlaneMap
+[2019.07.27-17.05.21:025][185]Cmd: MAP LOAD FILE="../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/PlaneMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.27-17.05.21:025][185]LightingResults: New page: Lighting Build
+[2019.07.27-17.05.21:026][185]LoadErrors: New page: Loading map: PlaneMap.umap
+[2019.07.27-17.05.21:031][185]MapCheck: New page: Map Check
+[2019.07.27-17.05.21:031][185]LightingResults: New page: Lighting Build
+[2019.07.27-17.05.21:165][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.27-17.05.21:246][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.27-17.05.21:433][185]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 186,659ms to complete.
+[2019.07.27-17.05.21:434][185]LogFileHelpers: Loading map 'PlaneMap' took 0.412
+[2019.07.27-17.05.34:341][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Modern_Table183)
+[2019.07.27-17.05.36:175][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.27-17.06.41:997][447]LogSlate: Window 'Failed Renames' being destroyed
+[2019.07.27-17.06.49:795][875]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.27-17.06.56:403][489]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Modern_TableE25E28FD4A366030DBEED49BCEADA9AA.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/SM_Modern_Table.uasset'
+[2019.07.27-17.06.56:559][489]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Modern_TableD79FF01C488B79996078098470981A8B.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FreeFurniturePack/Meshes/SM_Modern_Table.uasset'
+[2019.07.27-17.07.04:619][185]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/M_Modern_Table_top6CAA4F604C2A19A71CA6DF9C2BB71BFB.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/M_Modern_Table_top.uasset'
+[2019.07.27-17.07.04:709][185]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/M_Modern_Table_top6CB35C3B4CB999781EEF079E9B43EDF4.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FreeFurniturePack/Materials/M_Modern_Table_top.uasset'
+[2019.07.27-17.07.15:020][111]LogMaterial: Display: Missing cached shader map for material M_Commode, compiling. 
+[2019.07.27-17.07.15:082][111]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.07.27-17.07.15:083][111]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.07.27-17.07.15:083][111]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.07.27-17.07.15:083][111]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.07.27-17.07.15:083][111]LogStaticMesh: Building static mesh SM_Commode...
+[2019.07.27-17.07.15:221][111]LogStaticMesh: Built static mesh [0.14s] /Game/FreeFurniturePack/Meshes/SM_Commode.SM_Commode
+[2019.07.27-17.07.15:257][111]LogMaterial: Display: Missing cached shader map for material M_Modern_Cupboard, compiling. 
+[2019.07.27-17.07.15:294][111]LogStaticMesh: Building static mesh SM_Modern_Cupboard...
+[2019.07.27-17.07.15:305][111]LogStaticMesh: Built static mesh [0.01s] /Game/FreeFurniturePack/Meshes/SM_Modern_Cupboard.SM_Modern_Cupboard
+[2019.07.27-17.07.15:324][111]LogMaterial: Display: Missing cached shader map for material M_Cupboard_Metall, compiling. 
+[2019.07.27-17.07.15:367][111]LogStaticMesh: Building static mesh SM_Modern_Cupboard_Sliding_Door...
+[2019.07.27-17.07.15:372][111]LogStaticMesh: Built static mesh [0.01s] /Game/FreeFurniturePack/Meshes/SM_Modern_Cupboard_Sliding_Door.SM_Modern_Cupboard_Sliding_Door
+[2019.07.27-17.07.15:504][111]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/M_Chrome14F59D7B480DD72B37AE0DA9A47F7AC4.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/M_Chrome.uasset'
+[2019.07.27-17.07.15:886][111]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_CommodeB3C07EF048449ECBC7EF65BCD088852F.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FreeFurniturePack/Meshes/SM_Commode.uasset'
+[2019.07.27-17.07.16:071][111]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Modern_Cupboard826A27CC4C515D4213F1C2AF2B7F1242.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FreeFurniturePack/Meshes/SM_Modern_Cupboard.uasset'
+[2019.07.27-17.07.16:271][111]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Modern_Cupboard_Sliding_Door1E42F1CF44C13B3E1E7F9DA0CE2FA404.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FreeFurniturePack/Meshes/SM_Modern_Cupboard_Sliding_Door.uasset'
+[2019.07.27-17.07.16:399][111]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Modern_Table7049C93D474FC62CFE924FBCB41C8923.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/SM_Modern_Table.uasset'
+[2019.07.27-17.07.16:567][114]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.07.27-17.07.22:366][489]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.07.27-17.07.22:641][507]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.07.27-17.07.22:797][517]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.07.27-17.07.22:837][519]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.07.27-17.07.28:243][883]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.07.27-17.07.28:348][890]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.07.27-17.07.40:305][868]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/M_Modern_Table_bottom137E8C87464329522E73A5AAF3BB82BB.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/M_Modern_Table_bottom.uasset'
+[2019.07.27-17.07.40:595][868]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Modern_Table31F75810413275C830F6F3B4EE19B1A9.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/SM_Modern_Table.uasset'
+[2019.07.27-17.07.44:027][121]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.27-17.07.44:133][122]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2019.07.27-17.07.45:420][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor55)
+[2019.07.27-17.07.45:487][223]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.07.27-17.07.48:033][434]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.07.27-17.07.48:494][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.27-17.08.04:737][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Coffee_Table2)
+[2019.07.27-17.08.07:541][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.27-17.08.12:812][923]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/M_Coffee_TableEC22C94C4558A0DDD3B460A00E6F2816.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/M_Coffee_Table.uasset'
+[2019.07.27-17.08.13:141][923]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Coffee_TableB8FF38EE42282D38F68A7398306C9991.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FreeFurniturePack/Meshes/SM_Coffee_Table.uasset'
+[2019.07.27-17.08.20:999][727]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Coffee_Table08196FA4484A8979B6F6088D1BC88D6A.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Asset/SM_Coffee_Table.uasset'
+[2019.07.27-17.08.21:080][727]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/SM_Coffee_Table0CFE11484F6CFFDC334249962FC7795F.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FreeFurniturePack/Meshes/SM_Coffee_Table.uasset'
