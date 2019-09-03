@@ -1,4 +1,4 @@
-﻿Log file open, 08/30/19 17:42:36
+﻿Log file open, 09/03/19 16:18:43
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: PlaneTest2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.378609
+LogStats: Stats thread started at 0.323702
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.174s to configure plugins.
+LogStreaming: Display: Took  0.227s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,667 +147,578 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.016s to delete old logs.
+LogStreaming: Display: Took  0.009s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.08.30-15.42.37:377][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.30-15.42.37:377][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.08.30-15.42.37:476][  0]LogHAL: Display: Platform has ~ 8 GB [8469180416 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.08.30-15.42.37:479][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.08.30-15.42.37:479][  0]LogInit: Going up to parent DeviceProfile []
-[2019.08.30-15.42.37:483][  0]LogInit: Computer: DESKTOP-O2TJ2H8
-[2019.08.30-15.42.37:483][  0]LogInit: User: NttdataSky
-[2019.08.30-15.42.37:483][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.08.30-15.42.37:483][  0]LogInit: High frequency timer resolution =2.742188 MHz
-[2019.08.30-15.42.37:483][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.08.30-15.42.37:483][  0]LogMemory: Platform Memory Stats for Windows
-[2019.08.30-15.42.37:483][  0]LogMemory: Process Physical Memory: 110.41 MB used, 110.41 MB peak
-[2019.08.30-15.42.37:483][  0]LogMemory: Process Virtual Memory: 106.28 MB used, 106.28 MB peak
-[2019.08.30-15.42.37:483][  0]LogMemory: Physical Memory: 3769.88 MB used,  4306.96 MB free, 8076.84 MB total
-[2019.08.30-15.42.37:483][  0]LogMemory: Virtual Memory: 4660.68 MB used,  4306.96 MB free, 134217728.00 MB total
-[2019.08.30-15.42.37:613][  0]LogInit: Using OS detected language (it-IT).
-[2019.08.30-15.42.37:613][  0]LogInit: Using OS detected locale (it-IT).
-[2019.08.30-15.42.37:620][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
-[2019.08.30-15.42.37:675][  0]LogStreaming: Display: Took  0.063s to InitEngineTextLocalization.
-[2019.08.30-15.42.37:676][  0]LogInit: Setting process to per monitor DPI aware
-[2019.08.30-15.42.37:764][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.08.30-15.42.37:764][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.08.30-15.42.39:708][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.30-15.42.39:708][  0]LogD3D11RHI: D3D11 adapters:
-[2019.08.30-15.42.39:719][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.08.30-15.42.39:719][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2019.08.30-15.42.40:686][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
-[2019.08.30-15.42.40:686][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2019.08.30-15.42.40:691][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.30-15.42.40:691][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.30-15.42.40:694][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.30-15.42.40:694][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.30-15.42.40:696][  0]LogD3D11RHI:    4. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.30-15.42.40:696][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.30-15.42.40:696][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2019.08.30-15.42.40:705][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.08.30-15.42.40:705][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
-[2019.08.30-15.42.40:706][  0]LogWindows: EnumDisplayDevices:
-[2019.08.30-15.42.40:706][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2019.08.30-15.42.40:706][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.08.30-15.42.40:707][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.08.30-15.42.40:707][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:0)
-[2019.08.30-15.42.40:707][  0]LogWindows:    4. 'DisplayLink USB Device' (P:0 D:0)
-[2019.08.30-15.42.40:708][  0]LogWindows:    5. 'DisplayLink USB Device' (P:1 D:1)
-[2019.08.30-15.42.40:708][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.08.30-15.42.40:708][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
-[2019.08.30-15.42.40:708][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.08.30-15.42.40:708][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.08.30-15.42.40:708][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
-[2019.08.30-15.42.40:759][  0]LogD3D11RHI: Async texture creation enabled
-[2019.08.30-15.42.40:803][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.08.30-15.42.40:809][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Intermediate/Shaders/WorkingDirectory/7028/).
-[2019.08.30-15.42.40:809][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NttdataSky/AppData/Local/Temp/UnrealShaderWorkingDir/2F42E08E4EFC2AED31F60FA099E420A6/'.
-[2019.08.30-15.42.41:386][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.08.30-15.42.41:404][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.08.30-15.42.41:422][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.08.30-15.42.41:438][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.08.30-15.42.41:460][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.08.30-15.42.41:480][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.08.30-15.42.41:497][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.08.30-15.42.41:516][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.08.30-15.42.41:525][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:620][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.30-15.42.41:624][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.08.30-15.42.41:700][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.08.30-15.42.41:700][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.08.30-15.42.41:726][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.08.30-15.42.41:726][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.08.30-15.42.41:739][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.08.30-15.42.41:754][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.08.30-15.42.41:769][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.08.30-15.42.41:792][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.08.30-15.42.41:802][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.08.30-15.42.41:802][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.08.30-15.42.41:948][  0]LogXGEController: Cleaning working directory: C:/Users/NttdataSky/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.08.30-15.42.41:948][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.08.30-15.42.41:948][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.08.30-15.42.41:949][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.08.30-15.42.44:231][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.08.30-15.42.45:168][  0]LogDerivedDataCache: Loaded boot cache 0.93s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.08.30-15.42.45:168][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.08.30-15.42.45:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.08.30-15.42.45:168][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.08.30-15.42.45:168][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.30-15.42.45:168][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.08.30-15.42.45:184][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.08.30-15.42.45:197][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NttdataSky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.08.30-15.42.45:197][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.08.30-15.42.45:197][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.08.30-15.42.45:222][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.08.30-15.42.45:235][  0]LogSlate: Using FreeType 2.6.0
-[2019.08.30-15.42.45:241][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.08.30-15.42.45:347][  0]LogAssetRegistry: FAssetRegistry took 0.0317 seconds to start up
-[2019.08.30-15.42.47:044][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.30-15.42.47:380][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.08.30-15.42.47:434][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.08.30-15.42.47:435][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.08.30-15.42.47:436][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.08.30-15.42.47:436][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.08.30-15.42.47:506][  0]LogNetVersion: PlaneTest2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1907551874)
-[2019.08.30-15.42.49:127][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.157616 seconds
-[2019.08.30-15.42.49:135][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.08.30-15.42.49:135][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.08.30-15.42.49:135][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.08.30-15.42.53:212][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.08.30-15.42.53:229][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.08.30-15.42.53:588][  0]SourceControl: Source control is disabled
-[2019.08.30-15.42.53:589][  0]SourceControl: Source control is disabled
-[2019.08.30-15.42.53:600][  0]SourceControl: Source control is disabled
-[2019.08.30-15.42.53:605][  0]SourceControl: Source control is disabled
-[2019.08.30-15.42.53:903][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.08.30-15.42.54:059][  0]LogOcInput: OculusInput pre-init called
-[2019.08.30-15.42.54:213][  0]LogEngine: Initializing Engine...
-[2019.08.30-15.42.54:216][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.30-15.42.54:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.08.30-15.42.54:219][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.08.30-15.42.54:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.08.30-15.42.54:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.08.30-15.42.54:673][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.08.30-15.42.54:733][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.08.30-15.42.54:780][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.42.55:027][  0]LogInit: FAudioDevice initialized.
-[2019.08.30-15.42.55:028][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.08.30-15.42.55:180][  0]LogDerivedDataCache: Saved boot cache 0.15s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.08.30-15.42.55:186][  0]LogInit: Texture streaming: Enabled
-[2019.08.30-15.42.55:225][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.08.30-15.42.55:225][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={E05E6D0F-417E-433C-0016-0B9142F7EAD6}
-[2019.08.30-15.42.55:262][  0]LogInit: Transaction tracking system initialized
-[2019.08.30-15.42.55:344][  0]BlueprintLog: New page: Editor Load
-[2019.08.30-15.42.55:621][  0]LocalizationService: Localization service is disabled
-[2019.08.30-15.42.56:758][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.08.30-15.42.56:759][  0]LogCook: Display: Mobile HDR setting 1
-[2019.08.30-15.42.56:760][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.08.30-15.42.56:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.08.30-15.42.56:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.08.30-15.42.56:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.08.30-15.42.56:760][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.08.30-15.42.57:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/' took 0.16s
-[2019.08.30-15.42.57:141][  0]SourceControl: Source control is disabled
-[2019.08.30-15.42.57:142][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.08.30-15.42.57:144][  0]LightingResults: New page: Lighting Build
-[2019.08.30-15.42.57:160][  0]MapCheck: New page: Map Check
-[2019.08.30-15.42.57:160][  0]LightingResults: New page: Lighting Build
-[2019.08.30-15.43.00:860][  0]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2019.08.30-15.43.00:860][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2019.08.30-15.43.01:245][  0]LogPackageName: SearchForPackageOnDisk took   0.385s, but failed to resolve FX_Meshes.
-[2019.08.30-15.43.01:245][  0]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
-[2019.08.30-15.43.04:446][  0]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.43.04:529][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.08.30-15.43.04:578][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.08.30-15.43.04:765][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 186,469ms to complete.
-[2019.08.30-15.43.04:765][  0]LogFileHelpers: Loading map 'MainMenu_Auto4' took 7.623
-[2019.08.30-15.43.04:968][  0]LogCollectionManager: Loaded 0 collections in 0.004219 seconds
-[2019.08.30-15.43.05:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Collections/' took 0.01s
-[2019.08.30-15.43.05:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Developers/NttdataSky/Collections/' took 0.01s
-[2019.08.30-15.43.05:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Collections/' took 0.01s
-[2019.08.30-15.43.05:058][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.08.30-15.43.05:074][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2572 classes and 603 folders.
-[2019.08.30-15.43.05:099][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.08.30-15.43.05:715][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.08.30-15.43.05:775][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.43.05:782][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.43.05:789][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.43.05:798][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.43.05:822][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.08.30-15.43.06:086][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.08.30-15.43.06:089][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.08.30-15.43.06:136][  0]LogSlate: Took 0.045248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.08.30-15.43.06:304][  0]LogRenderer: Reallocating scene render targets to support 624x428 Format 9 NumSamples 1 (Frame:1).
-[2019.08.30-15.43.06:522][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.08.30-15.43.06:522][  0]LogLoad: (Engine Initialization) Total time: 35.74 seconds
-[2019.08.30-15.43.06:522][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.08.30-15.43.06:576][  0]LogContentStreaming: Texture pool size now 800 MB
-[2019.08.30-15.43.06:607][  0]LogSlate: Took 0.007127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.30-15.43.06:655][  1]LogRenderer: Reallocating scene render targets to support 624x436 Format 9 NumSamples 1 (Frame:2).
-[2019.08.30-15.43.07:020][  3]LogAssetRegistry: Asset discovery search completed in 21.6964 seconds
-[2019.08.30-15.43.07:022][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.08.30-15.43.07:022][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2019.08.30-15.43.08:009][  6]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.30-15.43.10:347][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.43.10:419][ 13]LogRenderer: Reallocating scene render targets to support 784x436 Format 9 NumSamples 1 (Frame:6).
-[2019.08.30-15.43.10:534][ 15]LogRenderer: Reallocating scene render targets to support 828x436 Format 9 NumSamples 1 (Frame:8).
-[2019.08.30-15.43.12:190][104]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.43.12:238][104]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.43.12:238][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.43.12:255][104]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:43:12)
-[2019.08.30-15.43.12:263][104]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.43.12:276][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013005s)
-[2019.08.30-15.43.12:277][104]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.43.12:277][104]LogPlayLevel: PIE: World Init took: (0.001012s)
-[2019.08.30-15.43.12:278][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.014294s)
-[2019.08.30-15.43.12:302][104]LogBlueprintUserMessages: [MyGameInstance_C_0] Loading----
-[2019.08.30-15.43.12:336][104]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.43.12:393][104]LogInit: FAudioDevice initialized.
-[2019.08.30-15.43.12:452][104]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.43.12:462][104]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.43.12
-[2019.08.30-15.43.12:467][104]LogWorld: Bringing up level for play took: 0.011752
-[2019.08.30-15.43.12:532][104]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2019.08.30-15.43.12:533][104]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.43.12:534][104]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.43.12:534][104]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 0,444
-[2019.08.30-15.43.12:534][104]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.43.14:111][190]LogBlueprintUserMessages: [MainMenu_C_2] Down
-[2019.08.30-15.43.14:841][234]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.43.18:888][412]LogBlueprintUserMessages: [MainMenu_C_2] Down
-[2019.08.30-15.43.19:221][432]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.43.19:271][435]LogBlueprintUserMessages: [MainMenu_C_2] Left
-[2019.08.30-15.43.19:271][435]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.43.19:972][477]LogBlueprintUserMessages: [MainMenu_C_2] Right
-[2019.08.30-15.43.19:972][477]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.43.20:540][511]LogBlueprintUserMessages: [MainMenu_C_2] Down
-[2019.08.30-15.43.21:222][552]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.43.22:279][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.43.22:315][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.43.22:316][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.43.22:353][617]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.43.22:354][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.43.22:379][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.43.22:433][619]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.08.30-15.43.25:231][778]LogEditorViewport: Clicking on Actor (LMB): B_CornerTable_C (B_CornerTable)
-[2019.08.30-15.43.26:386][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.43.26:467][845]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/Various/B_CornerTable.B_CornerTable
-[2019.08.30-15.43.27:037][845]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2019.08.30-15.43.28:056][845]LogSlate: Took 0.005656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.08.30-15.43.40:524][476]BlueprintLog: New page: Compile B_CornerTable
-[2019.08.30-15.43.41:161][476]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_CornerTableE713C7B04C9A31E65D33A6BEF50671D4.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Various/B_CornerTable.uasset'
-[2019.08.30-15.43.44:203][614]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FlyingBP/Blueprints/Levels/Menu/B_Blackboard.B_Blackboard
-[2019.08.30-15.43.44:800][614]LogLinker: Warning: Can't resolve asset name
-[2019.08.30-15.43.44:908][615]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.08.30-15.43.55:409][ 84]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4
-[2019.08.30-15.44.03:693][496]BlueprintLog: New page: Compile MainMenu_Auto4
-[2019.08.30-15.44.04:727][496]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto43B5A7C92471B2A034746FBA65768DF4B.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.44.04:823][496]LogFileHelpers: Saving map 'MainMenu_Auto4' took 0.883
-[2019.08.30-15.44.23:618][544]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto4B3066A9E400E0385255C8BA41FF851D0.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.44.23:836][544]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto4_BuiltData495B2A61417A58E12ACDE3A276B1431D.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4_BuiltData.uasset'
-[2019.08.30-15.44.24:845][595]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.44.24:891][595]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.44.24:891][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.44.24:891][595]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:44:24)
-[2019.08.30-15.44.24:892][595]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.44.24:901][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009359s)
-[2019.08.30-15.44.24:902][595]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.44.24:902][595]LogPlayLevel: PIE: World Init took: (0.000706s)
-[2019.08.30-15.44.24:902][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.010246s)
-[2019.08.30-15.44.24:934][595]LogBlueprintUserMessages: [MyGameInstance_C_1] Loading----
-[2019.08.30-15.44.24:981][595]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.44.25:036][595]LogInit: FAudioDevice initialized.
-[2019.08.30-15.44.25:069][595]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.44.25:077][595]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.44.25
-[2019.08.30-15.44.25:077][595]LogWorld: Bringing up level for play took: 0.006723
-[2019.08.30-15.44.25:090][595]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.44.25:090][595]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.44.25:090][595]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 1
-[2019.08.30-15.44.25:091][595]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.44.27:040][707]LogBlueprintUserMessages: [MainMenu_C_2] Up
-[2019.08.30-15.44.27:040][707]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.44.28:474][793]LogBlueprintUserMessages: [MainMenu_C_2] Down
-[2019.08.30-15.44.28:990][824]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.44.33:785][111]LogBlueprintUserMessages: [MainMenu_C_2] Left
-[2019.08.30-15.44.33:785][111]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.44.34:869][176]LogBlueprintUserMessages: [MainMenu_C_2] Right
-[2019.08.30-15.44.34:869][176]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.44.39:603][460]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.44.39:604][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.44.39:650][460]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.44.39:650][460]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.44.39:689][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.44.39:704][461]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.08.30-15.44.43:847][695]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.45.02:563][710]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto44E1ACF334AFCAC19DD8CF9B67C0AAB84.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.45.02:761][710]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto4_BuiltDataD75287974F34C847AC5C739E2DF2EAF8.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4_BuiltData.uasset'
-[2019.08.30-15.45.03:522][741]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.45.03:588][741]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.45.03:588][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.45.03:588][741]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:45:03)
-[2019.08.30-15.45.03:589][741]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.45.03:601][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011762s)
-[2019.08.30-15.45.03:601][741]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.45.03:601][741]LogPlayLevel: PIE: World Init took: (0.000621s)
-[2019.08.30-15.45.03:601][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.012595s)
-[2019.08.30-15.45.03:632][741]LogBlueprintUserMessages: [MyGameInstance_C_2] Loading----
-[2019.08.30-15.45.03:677][741]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.45.03:735][741]LogInit: FAudioDevice initialized.
-[2019.08.30-15.45.03:770][741]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.45.03:776][741]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.45.03
-[2019.08.30-15.45.03:777][741]LogWorld: Bringing up level for play took: 0.006257
-[2019.08.30-15.45.03:790][741]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.45.03:790][741]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.45.03:790][741]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 -0,3
-[2019.08.30-15.45.03:790][741]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.45.07:951][983]LogSlate: Took 0.010389 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.08.30-15.45.09:621][ 81]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.45.09:622][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.45.09:666][ 81]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.45.09:667][ 81]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.45.09:701][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.45.09:740][ 82]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.08.30-15.45.15:491][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.45.48:210][  0]LogEditorViewport: Clicking on Actor (context menu): B_ProceduralGenerationFloor_C (B_ProceduralGenerationFloor)
-[2019.08.30-15.45.48:276][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.45.50:942][148]LogEditorViewport: Clicking on Actor (context menu): B_ProceduralGenerationFloor_C (B_ProceduralGenerationFloor)
-[2019.08.30-15.45.50:971][148]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.45.55:355][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.45.55:356][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.45.55:356][357]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:45:55)
-[2019.08.30-15.45.55:356][357]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.45.55:368][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011348s)
-[2019.08.30-15.45.55:369][357]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.45.55:369][357]LogPlayLevel: PIE: World Init took: (0.000883s)
-[2019.08.30-15.45.55:369][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.012896s)
-[2019.08.30-15.45.55:402][357]LogBlueprintUserMessages: [MyGameInstance_C_3] Loading----
-[2019.08.30-15.45.55:423][357]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.45.55:480][357]LogInit: FAudioDevice initialized.
-[2019.08.30-15.45.55:480][357]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.45.55:512][357]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.45.55:519][357]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.45.55
-[2019.08.30-15.45.55:520][357]LogWorld: Bringing up level for play took: 0.006501
-[2019.08.30-15.45.55:533][357]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.45.55:533][357]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.45.55:533][357]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 -0,557
-[2019.08.30-15.45.55:534][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.45.57:068][441]LogBlueprintUserMessages: [MainMenu_C_3] Up
-[2019.08.30-15.45.57:484][466]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.45.58:368][519]LogBlueprintUserMessages: [MainMenu_C_3] Up
-[2019.08.30-15.45.58:668][537]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.45.59:418][582]LogBlueprintUserMessages: [MainMenu_C_3] Up
-[2019.08.30-15.45.59:935][613]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.46.00:502][647]LogBlueprintUserMessages: [MainMenu_C_3] Down
-[2019.08.30-15.46.00:801][665]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.46.03:452][824]LogBlueprintUserMessages: [MainMenu_C_3] Left
-[2019.08.30-15.46.03:452][824]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.46.05:052][920]LogBlueprintUserMessages: [MainMenu_C_3] Left
-[2019.08.30-15.46.05:052][920]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.46.05:953][974]LogBlueprintUserMessages: [MainMenu_C_3] Right
-[2019.08.30-15.46.05:953][974]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.46.06:736][ 21]LogBlueprintUserMessages: [MainMenu_C_3] Right
-[2019.08.30-15.46.06:736][ 21]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.46.07:702][ 79]LogBlueprintUserMessages: [MainMenu_C_3] Left
-[2019.08.30-15.46.07:703][ 79]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.46.08:286][114]LogBlueprintUserMessages: [MainMenu_C_3] Left
-[2019.08.30-15.46.08:286][114]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.46.14:319][476]LogBlueprintUserMessages: [MainMenu_C_3] Up
-[2019.08.30-15.46.14:320][476]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.46.15:720][560]LogBlueprintUserMessages: [MainMenu_C_3] Down
-[2019.08.30-15.46.15:720][560]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.46.17:438][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.46.17:440][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.46.17:486][663]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.46.17:486][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.46.17:523][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.46.17:542][664]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.08.30-15.46.21:057][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.47.07:434][214]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto44720DBD94D72E4EB0AAB4A933AD959CF.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.47.07:525][214]LogFileHelpers: Saving map 'MainMenu_Auto4' took 0.773
-[2019.08.30-15.47.07:976][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.47.08:022][227]BlueprintLog: New page: Compile MainMenu_Auto4
-[2019.08.30-15.47.08:933][227]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto457A747284856D114048B178AADE72DB1.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.47.09:031][227]LogFileHelpers: Saving map 'MainMenu_Auto4' took 0.777
-[2019.08.30-15.47.09:618][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.47.20:580][746]LogRenderer: Reallocating scene render targets to support 904x648 Format 9 NumSamples 1 (Frame:1).
-[2019.08.30-15.47.22:720][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.47.29:916][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.47.48:794][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.47.58:105][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.48.03:024][488]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.48.07:985][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.48.13:992][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.48.18:807][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.48.38:857][113]BlueprintLog: New page: Compile B_CornerTable
-[2019.08.30-15.48.39:356][113]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_CornerTable2E5317FF4E1875AA44BAF4B2A16E4B32.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Various/B_CornerTable.uasset'
-[2019.08.30-15.48.40:269][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.48.41:005][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.48.41:055][198]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.48.41:116][198]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.48.41:116][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.48.41:117][198]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:48:41)
-[2019.08.30-15.48.41:117][198]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.48.41:129][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011596s)
-[2019.08.30-15.48.41:130][198]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.48.41:130][198]LogPlayLevel: PIE: World Init took: (0.001109s)
-[2019.08.30-15.48.41:130][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.013290s)
-[2019.08.30-15.48.41:167][198]LogBlueprintUserMessages: [MyGameInstance_C_4] Loading----
-[2019.08.30-15.48.41:221][198]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.48.41:285][198]LogInit: FAudioDevice initialized.
-[2019.08.30-15.48.41:318][198]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.48.41:325][198]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.48.41
-[2019.08.30-15.48.41:326][198]LogWorld: Bringing up level for play took: 0.007308
-[2019.08.30-15.48.41:339][198]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.48.41:339][198]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.48.41:339][198]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 -0,751
-[2019.08.30-15.48.41:340][198]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.48.43:199][305]LogBlueprintUserMessages: [MainMenu_C_6] Up
-[2019.08.30-15.48.43:667][333]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.48.44:000][353]LogBlueprintUserMessages: [MainMenu_C_6] Down
-[2019.08.30-15.48.44:116][360]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.48.46:983][532]LogBlueprintUserMessages: [MainMenu_C_6] Left
-[2019.08.30-15.48.46:983][532]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.48.49:874][704]LogBlueprintUserMessages: [MainMenu_C_6] Left
-[2019.08.30-15.48.49:875][704]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.48.53:809][940]LogBlueprintUserMessages: [MainMenu_C_6] Down
-[2019.08.30-15.48.54:059][955]LogBlueprintUserMessages: [BlackBoardCharacter] LittleMove
-[2019.08.30-15.48.54:876][  4]LogBlueprintUserMessages: [MainMenu_C_6] Down
-[2019.08.30-15.48.55:592][ 47]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.48.55:593][ 47]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.48.56:576][106]LogBlueprintUserMessages: [MainMenu_C_6] Left
-[2019.08.30-15.48.56:576][106]LogBlueprintUserMessages: [BlackBoardCharacter] RightPoint
-[2019.08.30-15.48.56:893][125]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.48.57:577][166]LogBlueprintUserMessages: [MainMenu_C_6] Down
-[2019.08.30-15.48.57:709][174]LogBlueprintUserMessages: [BlackBoardCharacter] LittleMove
-[2019.08.30-15.48.59:377][274]LogBlueprintUserMessages: [MainMenu_C_6] Left
-[2019.08.30-15.48.59:377][274]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.49.02:177][442]LogBlueprintUserMessages: [MainMenu_C_6] Down
-[2019.08.30-15.49.02:296][449]LogBlueprintUserMessages: [BlackBoardCharacter] LittleMove
-[2019.08.30-15.49.04:078][556]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.04:078][556]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.05:328][631]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.05:328][631]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.10:166][921]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.10:166][921]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.10:838][961]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.10:838][961]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.11:938][ 27]LogBlueprintUserMessages: [MainMenu_C_6] Up
-[2019.08.30-15.49.12:505][ 61]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.49.13:422][116]LogBlueprintUserMessages: [MainMenu_C_6] Up
-[2019.08.30-15.49.13:672][131]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.49.14:188][162]LogBlueprintUserMessages: [MainMenu_C_6] Left
-[2019.08.30-15.49.14:189][162]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.49.14:938][207]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.14:939][207]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.17:239][345]LogBlueprintUserMessages: [MainMenu_C_6] Left
-[2019.08.30-15.49.18:107][397]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.49.23:324][710]LogBlueprintUserMessages: [MainMenu_C_6] Left
-[2019.08.30-15.49.23:324][710]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.49.23:957][748]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.23:958][748]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.24:507][781]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.24:508][781]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.25:274][827]LogBlueprintUserMessages: [MainMenu_C_6] Right
-[2019.08.30-15.49.25:274][827]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.49.26:108][877]LogBlueprintUserMessages: [MainMenu_C_6] Down
-[2019.08.30-15.49.26:308][889]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.49.28:126][998]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.49.28:128][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.49.28:175][998]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.49.28:175][998]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.49.28:216][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.49.28:233][999]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2019.08.30-15.49.30:649][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.49.31:933][153]BlueprintLog: New page: Compile B_CornerTable
-[2019.08.30-15.49.47:909][984]BlueprintLog: New page: Compile B_CornerTable
-[2019.08.30-15.49.48:339][984]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_CornerTable4BF5EB274E5EB593B11A4A9FC6D01890.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Various/B_CornerTable.uasset'
-[2019.08.30-15.49.48:804][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.49.59:484][583]BlueprintLog: New page: Compile MainMenu_Auto4
-[2019.08.30-15.50.00:415][583]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto4ADCDD6FF44D02C45B053BB8C593E634F.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.50.00:514][583]LogFileHelpers: Saving map 'MainMenu_Auto4' took 0.808
-[2019.08.30-15.50.01:871][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.50.03:714][753]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.50.05:890][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.50.44:864][ 77]BlueprintLog: New page: Compile B_Blackboard
-[2019.08.30-15.50.45:289][ 77]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_BlackboardB70444BA45596E302DDAA5AB935386D1.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Levels/Menu/B_Blackboard.uasset'
-[2019.08.30-15.50.46:707][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.50.47:368][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.50.47:434][193]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.50.47:493][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.50.47:494][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.50.47:494][193]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:50:47)
-[2019.08.30-15.50.47:495][193]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.50.47:504][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008606s)
-[2019.08.30-15.50.47:504][193]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.50.47:505][193]LogPlayLevel: PIE: World Init took: (0.000871s)
-[2019.08.30-15.50.47:505][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.010089s)
-[2019.08.30-15.50.47:540][193]LogBlueprintUserMessages: [MyGameInstance_C_5] Loading----
-[2019.08.30-15.50.47:561][193]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.50.47:617][193]LogInit: FAudioDevice initialized.
-[2019.08.30-15.50.47:648][193]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.50.47:655][193]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.50.47
-[2019.08.30-15.50.47:656][193]LogWorld: Bringing up level for play took: 0.006731
-[2019.08.30-15.50.47:669][193]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.50.47:670][193]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.50.47:670][193]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 -0,421
-[2019.08.30-15.50.47:670][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.50.49:000][268]LogBlueprintUserMessages: [MainMenu_C_8] Up
-[2019.08.30-15.50.49:333][288]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.50.51:283][405]LogBlueprintUserMessages: [MainMenu_C_8] Up
-[2019.08.30-15.50.51:750][433]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.50.52:184][459]LogBlueprintUserMessages: [MainMenu_C_8] Down
-[2019.08.30-15.50.52:718][491]LogBlueprintUserMessages: [TableCharacter] LittleMove
-[2019.08.30-15.50.53:583][543]LogBlueprintUserMessages: [MainMenu_C_8] Left
-[2019.08.30-15.50.53:584][543]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.50.54:367][590]LogBlueprintUserMessages: [MainMenu_C_8] Left
-[2019.08.30-15.50.54:367][590]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.50.55:167][638]LogBlueprintUserMessages: [B_Blackboard_2] Hello
-[2019.08.30-15.50.55:718][671]LogBlueprintUserMessages: [B_Blackboard_2] Hello
-[2019.08.30-15.50.57:318][767]LogBlueprintUserMessages: [B_Blackboard_2] Hello
-[2019.08.30-15.50.57:402][772]LogBlueprintUserMessages: [MainMenu_C_8] Down
-[2019.08.30-15.50.57:403][772]LogBlueprintUserMessages: [BlackBoardCharacter] LittleMove
-[2019.08.30-15.50.59:302][886]LogBlueprintUserMessages: [B_Blackboard_2] Hello
-[2019.08.30-15.51.01:635][ 26]LogBlueprintUserMessages: [B_Blackboard_2] Hello
-[2019.08.30-15.51.05:852][279]LogBlueprintUserMessages: [B_Blackboard_2] Hello
-[2019.08.30-15.51.05:920][283]LogBlueprintUserMessages: [MainMenu_C_8] Right
-[2019.08.30-15.51.05:920][283]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.51.06:786][335]LogBlueprintUserMessages: [MainMenu_C_8] Right
-[2019.08.30-15.51.06:787][335]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.51.09:287][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.51.09:329][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.51.09:330][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.51.09:374][487]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.51.09:374][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.51.09:409][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.51.09:465][489]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2019.08.30-15.51.15:241][758]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_BlackboardAEA70DAF4AC4AB58B9E7429674DC28F6.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Levels/Menu/B_Blackboard.uasset'
-[2019.08.30-15.51.15:654][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.51.15:706][776]BlueprintLog: New page: Compile B_Blackboard
-[2019.08.30-15.51.17:771][866]BlueprintLog: New page: Compile B_CornerTable
-[2019.08.30-15.51.18:185][866]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_CornerTableF867E7B740E833F8CB3C1BB8E23D6DBE.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Various/B_CornerTable.uasset'
-[2019.08.30-15.51.18:511][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.51.45:005][328]BlueprintLog: New page: Compile MainMenu_Auto4
-[2019.08.30-15.51.45:920][328]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto45DB8387B4B79074CD6EE08973F3B52B9.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.51.46:011][328]LogFileHelpers: Saving map 'MainMenu_Auto4' took 0.775
-[2019.08.30-15.51.46:920][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.51.47:620][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.51.47:669][412]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.51.47:728][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.51.47:729][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.51.47:729][412]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:51:47)
-[2019.08.30-15.51.47:730][412]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.51.47:739][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008855s)
-[2019.08.30-15.51.47:740][412]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.51.47:740][412]LogPlayLevel: PIE: World Init took: (0.000730s)
-[2019.08.30-15.51.47:740][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.010093s)
-[2019.08.30-15.51.47:775][412]LogBlueprintUserMessages: [MyGameInstance_C_6] Loading----
-[2019.08.30-15.51.47:796][412]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.51.47:854][412]LogInit: FAudioDevice initialized.
-[2019.08.30-15.51.47:887][412]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.51.47:894][412]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.51.47
-[2019.08.30-15.51.47:895][412]LogWorld: Bringing up level for play took: 0.007420
-[2019.08.30-15.51.47:908][412]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.51.47:909][412]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.51.47:909][412]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 -0,182
-[2019.08.30-15.51.47:909][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.51.49:661][510]LogBlueprintUserMessages: [MainMenu_C_10] Left
-[2019.08.30-15.51.49:662][510]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.51.50:661][570]LogBlueprintUserMessages: [MainMenu_C_10] Right
-[2019.08.30-15.51.50:661][570]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.51.53:314][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.51.53:315][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.51.53:369][729]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.51.53:369][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.51.53:406][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.51.53:421][730]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2019.08.30-15.51.56:824][905]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.52.02:287][182]BlueprintLog: New page: Compile B_CornerTable
-[2019.08.30-15.52.02:717][182]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_CornerTable77FD637946FA78D4B69DA39DFDDE84CA.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Various/B_CornerTable.uasset'
-[2019.08.30-15.52.03:175][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.53.03:521][258]BlueprintLog: New page: Compile B_CornerTable
-[2019.08.30-15.53.03:948][258]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/B_CornerTable33186A034D9BA813AD317AA8530AF66C.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Blueprints/Various/B_CornerTable.uasset'
-[2019.08.30-15.53.05:838][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.53.06:646][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.53.06:680][387]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.53.06:731][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.53.06:731][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.53.06:731][387]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:53:06)
-[2019.08.30-15.53.06:732][387]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.53.06:741][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008983s)
-[2019.08.30-15.53.06:742][387]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.53.06:742][387]LogPlayLevel: PIE: World Init took: (0.000823s)
-[2019.08.30-15.53.06:742][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.010397s)
-[2019.08.30-15.53.06:776][387]LogBlueprintUserMessages: [MyGameInstance_C_7] Loading----
-[2019.08.30-15.53.06:796][387]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.53.06:854][387]LogInit: FAudioDevice initialized.
-[2019.08.30-15.53.06:888][387]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.53.06:895][387]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.53.06
-[2019.08.30-15.53.06:896][387]LogWorld: Bringing up level for play took: 0.006591
-[2019.08.30-15.53.06:909][387]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.53.06:909][387]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.53.06:910][387]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 0,819
-[2019.08.30-15.53.06:910][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.53.11:584][660]LogBlueprintUserMessages: [MainMenu_C_10] Up
-[2019.08.30-15.53.12:167][695]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.53.12:551][718]LogBlueprintUserMessages: [MainMenu_C_10] Down
-[2019.08.30-15.53.13:167][755]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.53.13:901][799]LogBlueprintUserMessages: [MainMenu_C_10] Left
-[2019.08.30-15.53.13:901][799]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.53.14:901][859]LogBlueprintUserMessages: [MainMenu_C_10] Left
-[2019.08.30-15.53.14:901][859]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.53.15:735][909]LogBlueprintUserMessages: [MainMenu_C_10] Right
-[2019.08.30-15.53.15:735][909]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.53.16:484][954]LogBlueprintUserMessages: [MainMenu_C_10] Right
-[2019.08.30-15.53.16:485][954]LogBlueprintUserMessages: [MenuCharacter_2] LeftPoint
-[2019.08.30-15.53.21:469][253]LogBlueprintUserMessages: [MainMenu_C_10] Up
-[2019.08.30-15.53.22:103][291]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.53.22:935][341]LogBlueprintUserMessages: [MainMenu_C_10] Down
-[2019.08.30-15.53.23:486][374]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.53.26:518][556]LogBlueprintUserMessages: [MainMenu_C_10] Down
-[2019.08.30-15.53.27:035][587]LogBlueprintUserMessages: [MenuCharacter_2] LittleMove
-[2019.08.30-15.53.33:658][966]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.30-15.53.37:707][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.53.37:709][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.53.37:761][151]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.53.37:761][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.53.37:799][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.53.37:875][152]LogPlayLevel: Display: Destroying online subsystem :Context_24
-[2019.08.30-15.54.46:338][823]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto4111EBCFE441B21700E045EA42AFA2290.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.54.46:425][823]LogFileHelpers: Saving map 'MainMenu_Auto4' took 0.791
-[2019.08.30-15.54.46:666][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.54.46:725][828]BlueprintLog: New page: Compile MainMenu_Auto4
-[2019.08.30-15.54.47:659][828]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto45C94E0CF4C2840401B559FAB1823FDE4.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap'
-[2019.08.30-15.54.47:752][828]LogFileHelpers: Saving map 'MainMenu_Auto4' took 0.789
-[2019.08.30-15.54.55:528][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.54.55:593][260]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.30-15.54.55:638][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.54.55:639][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.30-15.54.55:639][260]PIE: New page: PIE session: MainMenu_Auto4 (30/ago/2019 19:54:55)
-[2019.08.30-15.54.55:640][260]LogPlayLevel: Creating play world package: /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4
-[2019.08.30-15.54.55:649][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009351s)
-[2019.08.30-15.54.55:650][260]LogAIModule: Creating AISystem for world MainMenu_Auto4
-[2019.08.30-15.54.55:651][260]LogPlayLevel: PIE: World Init took: (0.001023s)
-[2019.08.30-15.54.55:651][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4 to /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 (0.010914s)
-[2019.08.30-15.54.55:679][260]LogBlueprintUserMessages: [MyGameInstance_C_8] Loading----
-[2019.08.30-15.54.55:700][260]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.08.30-15.54.55:757][260]LogInit: FAudioDevice initialized.
-[2019.08.30-15.54.55:790][260]LogLoad: Game class is 'PaperPlaneGameMode_C'
-[2019.08.30-15.54.55:797][260]LogWorld: Bringing World /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4.MainMenu_Auto4 up for play (max tick rate 60) at 2019.08.30-17.54.55
-[2019.08.30-15.54.55:798][260]LogWorld: Bringing up level for play took: 0.006869
-[2019.08.30-15.54.55:811][260]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] PlayerPlane-CameraMovedEnergy: 1000.0
-[2019.08.30-15.54.55:812][260]LogBlueprintUserMessages: [PlayerPlane-CameraMoved_2] Player lv: [0]---with experience: 0.0
-[2019.08.30-15.54.55:812][260]PIE: Play in editor start time for /Game/FlyingBP/Maps/MainMenuLevelV1/UEDPIE_0_MainMenu_Auto4 -0,279
-[2019.08.30-15.54.55:812][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.54.59:800][491]LogBlueprintUserMessages: [MainMenu_C_13] Left
-[2019.08.30-15.54.59:800][491]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.55.00:867][555]LogBlueprintUserMessages: [MainMenu_C_13] Left
-[2019.08.30-15.55.00:867][555]LogBlueprintUserMessages: [MenuCharacter_2] RightPoint
-[2019.08.30-15.55.16:336][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-15.55.16:403][452]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.55.16:404][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.55.16:465][452]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.30-15.55.16:466][452]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel' has LevelScriptBlueprint '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4' with GeneratedClass '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_C' with ClassGeneratedBy '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.MainMenu_Auto4:PersistentLevel.MainMenu_Auto4'
-[2019.08.30-15.55.16:503][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.30-15.55.16:591][453]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2019.08.30-16.03.42:131][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.30-16.05.08:565][361]LogSavePackage: Moving '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/MainMenu_Auto4_Auto1C823E90D43814CD1B7CE2796140F91AF.tmp' to '../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Autosaves/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4_Auto1.umap'
-[2019.08.30-16.05.08:578][361]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4' took 0.613
-[2019.08.30-16.05.08:578][361]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.613
-[2019.08.30-16.05.31:169][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.03-14.18.44:274][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.03-14.18.44:274][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.03-14.18.44:342][  0]LogHAL: Display: Platform has ~ 8 GB [8469180416 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.03-14.18.44:342][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.09.03-14.18.44:342][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.03-14.18.44:342][  0]LogInit: Computer: DESKTOP-O2TJ2H8
+[2019.09.03-14.18.44:343][  0]LogInit: User: NttdataSky
+[2019.09.03-14.18.44:343][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.03-14.18.44:343][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2019.09.03-14.18.44:343][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.09.03-14.18.44:343][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.03-14.18.44:343][  0]LogMemory: Process Physical Memory: 110.02 MB used, 110.02 MB peak
+[2019.09.03-14.18.44:343][  0]LogMemory: Process Virtual Memory: 97.60 MB used, 97.60 MB peak
+[2019.09.03-14.18.44:343][  0]LogMemory: Physical Memory: 5747.70 MB used,  2329.14 MB free, 8076.84 MB total
+[2019.09.03-14.18.44:343][  0]LogMemory: Virtual Memory: 4651.99 MB used,  2329.14 MB free, 134217728.00 MB total
+[2019.09.03-14.18.44:379][  0]LogInit: Using OS detected language (it-IT).
+[2019.09.03-14.18.44:379][  0]LogInit: Using OS detected locale (it-IT).
+[2019.09.03-14.18.44:381][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
+[2019.09.03-14.18.44:384][  0]LogStreaming: Display: Took  0.005s to InitEngineTextLocalization.
+[2019.09.03-14.18.44:384][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.03-14.18.44:442][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.03-14.18.44:442][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.03-14.18.44:787][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.03-14.18.44:787][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.03-14.18.44:797][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.09.03-14.18.44:797][  0]LogD3D11RHI:       128/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2019.09.03-14.18.45:185][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 950M' (Feature Level 11_0)
+[2019.09.03-14.18.45:185][  0]LogD3D11RHI:       2010/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2019.09.03-14.18.45:188][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.03-14.18.45:188][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.03-14.18.45:191][  0]LogD3D11RHI:    3. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.03-14.18.45:191][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.03-14.18.45:194][  0]LogD3D11RHI:    4. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.03-14.18.45:194][  0]LogD3D11RHI:       0/0/4038 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.03-14.18.45:194][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2019.09.03-14.18.45:202][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.03-14.18.45:202][  0]LogD3D11RHI:     GPU DeviceId: 0x139a (for the marketing name, search the web for "GPU Device Id")
+[2019.09.03-14.18.45:202][  0]LogWindows: EnumDisplayDevices:
+[2019.09.03-14.18.45:202][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2019.09.03-14.18.45:202][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.09.03-14.18.45:203][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.09.03-14.18.45:203][  0]LogWindows:    3. 'DisplayLink USB Device' (P:0 D:0)
+[2019.09.03-14.18.45:204][  0]LogWindows:    4. 'DisplayLink USB Device' (P:0 D:0)
+[2019.09.03-14.18.45:204][  0]LogWindows:    5. 'DisplayLink USB Device' (P:1 D:1)
+[2019.09.03-14.18.45:204][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.09.03-14.18.45:204][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 950M
+[2019.09.03-14.18.45:204][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.09.03-14.18.45:204][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.09.03-14.18.45:204][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.09.03-14.18.45:256][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.03-14.18.45:268][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.03-14.18.45:269][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Intermediate/Shaders/WorkingDirectory/12116/).
+[2019.09.03-14.18.45:269][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NttdataSky/AppData/Local/Temp/UnrealShaderWorkingDir/1822EB72410652D7464E7C9BC1FD6CDB/'.
+[2019.09.03-14.18.45:632][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.09.03-14.18.45:652][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.09.03-14.18.45:672][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.09.03-14.18.45:693][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.09.03-14.18.45:722][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.09.03-14.18.45:744][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.09.03-14.18.45:772][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.09.03-14.18.45:794][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.09.03-14.18.45:805][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:915][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.03-14.18.45:918][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.09.03-14.18.45:994][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.03-14.18.45:994][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.03-14.18.46:030][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.03-14.18.46:030][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.03-14.18.46:048][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.09.03-14.18.46:067][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.09.03-14.18.46:087][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.09.03-14.18.46:107][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.09.03-14.18.46:122][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.09.03-14.18.46:122][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.03-14.18.46:257][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.03-14.18.46:257][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.03-14.18.46:257][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.03-14.18.47:244][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.03-14.18.47:305][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.09.03-14.18.47:306][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.09.03-14.18.47:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.03-14.18.47:306][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.03-14.18.47:306][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.03-14.18.47:306][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.03-14.18.47:326][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.03-14.18.47:338][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NttdataSky/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.03-14.18.47:338][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.03-14.18.47:338][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.03-14.18.47:360][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.03-14.18.47:361][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.03-14.18.47:362][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.03-14.18.47:459][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2019.09.03-14.18.49:282][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.03-14.18.49:477][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.09.03-14.18.49:485][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.09.03-14.18.49:485][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.03-14.18.49:485][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.03-14.18.49:485][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.09.03-14.18.49:512][  0]LogNetVersion: PlaneTest2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1907551874)
+[2019.09.03-14.18.50:293][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.216893 seconds
+[2019.09.03-14.18.50:302][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.09.03-14.18.50:302][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.09.03-14.18.50:302][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.03-14.18.51:705][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.03-14.18.51:719][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.03-14.18.51:912][  0]SourceControl: Source control is disabled
+[2019.09.03-14.18.51:912][  0]SourceControl: Source control is disabled
+[2019.09.03-14.18.51:914][  0]SourceControl: Source control is disabled
+[2019.09.03-14.18.51:916][  0]SourceControl: Source control is disabled
+[2019.09.03-14.18.52:104][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.03-14.18.52:260][  0]LogOcInput: OculusInput pre-init called
+[2019.09.03-14.18.52:349][  0]LogEngine: Initializing Engine...
+[2019.09.03-14.18.52:350][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.03-14.18.52:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.03-14.18.52:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.03-14.18.52:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.03-14.18.52:354][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.03-14.18.52:648][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.03-14.18.52:677][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.03-14.18.52:722][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.03-14.18.52:809][  0]LogInit: FAudioDevice initialized.
+[2019.09.03-14.18.52:809][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.03-14.18.53:001][  0]LogDerivedDataCache: Saved boot cache 0.19s 71MB C:/Users/NttdataSky/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.09.03-14.18.53:009][  0]LogInit: Texture streaming: Enabled
+[2019.09.03-14.18.53:043][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.03-14.18.53:071][  0]LogInit: Transaction tracking system initialized
+[2019.09.03-14.18.53:131][  0]BlueprintLog: New page: Editor Load
+[2019.09.03-14.18.53:297][  0]LocalizationService: Localization service is disabled
+[2019.09.03-14.18.54:133][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.03-14.18.54:134][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.03-14.18.54:134][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.09.03-14.18.54:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.03-14.18.54:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.03-14.18.54:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.03-14.18.54:135][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.03-14.18.54:367][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/' took 0.22s
+[2019.09.03-14.18.54:367][  0]SourceControl: Source control is disabled
+[2019.09.03-14.18.54:367][  0]Cmd: MAP LOAD FILE="../../../../../../Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/FlyingBP/Maps/MainMenuLevelV1/MainMenu_Auto4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.03-14.18.54:367][  0]LightingResults: New page: Lighting Build
+[2019.09.03-14.18.54:376][  0]MapCheck: New page: Map Check
+[2019.09.03-14.18.54:376][  0]LightingResults: New page: Lighting Build
+[2019.09.03-14.18.59:625][  0]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2019.09.03-14.18.59:625][  0]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
+[2019.09.03-14.19.00:070][  0]LogPackageName: SearchForPackageOnDisk took   0.445s, but failed to resolve FX_Meshes.
+[2019.09.03-14.19.00:070][  0]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2019.09.03-14.19.03:079][  0]LogAIModule: Creating AISystem for world MainMenu_Auto4
+[2019.09.03-14.19.03:182][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.03-14.19.03:223][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.03-14.19.03:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 236,196ms to complete.
+[2019.09.03-14.19.03:463][  0]LogFileHelpers: Loading map 'MainMenu_Auto4' took 9.097
+[2019.09.03-14.19.03:627][  0]LogCollectionManager: Loaded 0 collections in 0.004704 seconds
+[2019.09.03-14.19.03:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Saved/Collections/' took 0.01s
+[2019.09.03-14.19.03:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Developers/NttdataSky/Collections/' took 0.01s
+[2019.09.03-14.19.03:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/NttdataSky/Documents/Unreal Projects/PlaneTest2/Content/Collections/' took 0.01s
+[2019.09.03-14.19.03:713][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.03-14.19.03:728][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2572 classes and 603 folders.
+[2019.09.03-14.19.03:761][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.03-14.19.04:324][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.03-14.19.04:413][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.03-14.19.04:425][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.03-14.19.04:433][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.03-14.19.04:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.03-14.19.04:476][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.09.03-14.19.04:763][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.03-14.19.04:766][  0]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.03-14.19.04:808][  0]LogSlate: Took 0.040141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.03-14.19.04:826][  0]LogSlate: Took 0.007087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.09.03-14.19.05:069][  0]LogRenderer: Reallocating scene render targets to support 936x428 Format 9 NumSamples 1 (Frame:1).
+[2019.09.03-14.19.05:335][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.03-14.19.05:336][  0]LogLoad: (Engine Initialization) Total time: 24.48 seconds
+[2019.09.03-14.19.05:336][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.03-14.19.05:389][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.09.03-14.19.05:481][  1]LogRenderer: Reallocating scene render targets to support 936x436 Format 9 NumSamples 1 (Frame:2).
+[2019.09.03-14.19.05:839][  2]LogSlate: Took 0.009300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.03-14.19.05:937][  4]LogAssetRegistry: Asset discovery search completed in 18.5021 seconds
+[2019.09.03-14.19.05:940][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.03-14.19.05:940][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000246 seconds (updated 0 objects)
+[2019.09.03-14.19.06:937][  7]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.03-14.20.24:291][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.03-14.20.24:307][480]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\NttdataSky\Desktop\57-brick-shader.fbx)
+[2019.09.03-14.20.24:361][480]LogFbx: Loading FBX Scene from C:\Users\NttdataSky\Desktop\57-brick-shader.fbx
+[2019.09.03-14.20.24:375][480]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.03-14.20.26:218][480]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.09.03-14.20.26:846][480]LogMaterial: Display: Missing cached shader map for material Bricks, compiling. 
+[2019.09.03-14.20.26:913][480]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.09.03-14.20.26:913][480]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.03-14.20.26:913][480]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.03-14.20.26:916][480]LogFbx: Warning: Triangulating static mesh Test
+[2019.09.03-14.20.26:949][480]LogStaticMesh: Building static mesh 57-brick-shader...
+[2019.09.03-14.20.26:961][480]LogStaticMesh: Built static mesh [0.01s] /Game/FlyingBP/Mesh/Planes/57-brick-shader.57-brick-shader
+[2019.09.03-14.20.26:966][480]LogStaticMesh: Warning: 57-brick-shader has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.09.03-14.20.26:967][480]LogStaticMesh: Warning: 57-brick-shader has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.09.03-14.20.26:996][480]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.09.03-14.20.26:998][480]FBXImport: Warning: 57-brick-shader has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2019.09.03-14.20.26:998][480]FBXImport: Warning: 57-brick-shader has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.09.03-14.20.29:254][577]LogSlate: Window 'Message Log' being destroyed
+[2019.09.03-14.20.29:263][577]LogSlate: Window 'Message Log' being destroyed
+[2019.09.03-14.20.42:129][198]LogAssetEditorManager: Opening Asset editor for Material /Game/FlyingBP/Mesh/Planes/Bricks.Bricks
+[2019.09.03-14.20.42:136][198]LogMaterial: Display: Missing cached shader map for material Bricks, compiling. 
+[2019.09.03-14.20.42:551][198]LogMaterial: Display: Missing cached shader map for material Bricks, compiling. 
+[2019.09.03-14.20.42:574][198]LogMaterial: Display: Missing cached shader map for material Bricks, compiling. 
+[2019.09.03-14.20.42:594][198]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.09.03-14.20.42:595][198]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.09.03-14.20.42:595][198]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.03-14.20.42:595][198]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.03-14.20.42:621][198]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.09.03-14.20.42:806][198]LogSlate: Took 0.009497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.03-14.20.43:124][198]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.09.03-14.20.43:125][198]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.09.03-14.20.43:125][198]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.09.03-14.20.43:356][199]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.09.03-14.20.43:356][199]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.09.03-14.20.43:356][199]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.09.03-14.20.43:369][199]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.09.03-14.20.43:438][199]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.09.03-14.20.43:439][199]LogSlate: Took 0.007871 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.03-14.20.43:584][203]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.09.03-14.20.43:789][208]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.09.03-14.20.44:101][222]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.09.03-14.20.44:236][228]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.09.03-14.20.44:648][247]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.09.03-14.20.44:778][253]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.09.03-14.20.44:982][262]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.09.03-14.20.45:397][281]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.09.03-14.20.45:526][287]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.09.03-14.20.45:861][303]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.09.03-14.20.45:988][309]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.09.03-14.20.46:424][331]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.09.03-14.20.46:424][331]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.09.03-14.20.46:425][331]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.09.03-14.20.46:425][331]MaterialEditorStats: Texture samplers: 3/16
+[2019.09.03-14.20.54:865][621]LogSlate: Window 'Message' being destroyed
+[2019.09.03-14.20.58:324][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.03-14.20.59:723][822]LogSlate: Window 'Message' being destroyed
+[2019.09.03-14.20.59:730][822]LogSlate: Window 'Bricks*' being destroyed
+[2019.09.03-14.20.59:732][822]LogSlate: Window 'Bricks*' being destroyed
+[2019.09.03-14.21.01:815][870]LogSlate: Window 'Save Content' being destroyed
+[2019.09.03-14.21.02:094][870]LogSlate: Window 'PlaneTest2 - Unreal Editor' being destroyed
+[2019.09.03-14.21.02:345][871]Cmd: QUIT_EDITOR
+[2019.09.03-14.21.02:368][871]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.03-14.21.02:381][871]LogExit: Preparing to exit.
+[2019.09.03-14.21.02:838][871]LogExit: Editor shut down
+[2019.09.03-14.21.02:838][871]LogExit: Transaction tracking system shut down
+[2019.09.03-14.21.03:232][871]LogExit: Object subsystem successfully closed.
+[2019.09.03-14.21.03:248][871]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.09.03-14.21.03:249][871]LogD3D11RHI: Shutdown
+[2019.09.03-14.21.03:249][871]LogD3D11RHI: CleanupD3DDevice
+[2019.09.03-14.21.03:255][871]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.09.03-14.21.03:288][871]LogModuleManager: Shutting down and abandoning module MeshBuilder (612)
+[2019.09.03-14.21.03:288][871]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.09.03-14.21.03:288][871]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.09.03-14.21.03:288][871]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.09.03-14.21.03:290][871]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.09.03-14.21.03:290][871]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.09.03-14.21.03:290][871]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.09.03-14.21.03:290][871]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.09.03-14.21.03:290][871]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.09.03-14.21.03:290][871]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.09.03-14.21.03:291][871]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.09.03-14.21.03:292][871]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.09.03-14.21.04:814][871]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.09.03-14.21.04:815][871]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.09.03-14.21.04:879][871]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.09.03-14.21.04:881][871]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.09.03-14.21.05:082][871]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.09.03-14.21.05:083][871]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.09.03-14.21.05:087][871]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.09.03-14.21.05:088][871]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.09.03-14.21.05:190][871]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.09.03-14.21.05:291][871]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.09.03-14.21.05:292][871]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.09.03-14.21.05:292][871]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.09.03-14.21.05:292][871]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.09.03-14.21.05:292][871]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.09.03-14.21.05:293][871]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.09.03-14.21.05:293][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.09.03-14.21.05:293][871]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.09.03-14.21.05:293][871]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.09.03-14.21.05:293][871]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.09.03-14.21.05:293][871]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.09.03-14.21.05:295][871]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.09.03-14.21.05:301][871]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.09.03-14.21.05:302][871]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.09.03-14.21.05:304][871]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.09.03-14.21.05:338][871]LogDerivedDataCache: Shutdown
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.09.03-14.21.05:338][871]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.09.03-14.21.05:339][871]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.09.03-14.21.05:340][871]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.09.03-14.21.05:340][871]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.09.03-14.21.05:340][871]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.09.03-14.21.05:340][871]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.09.03-14.21.05:346][871]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.09.03-14.21.05:347][871]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.09.03-14.21.05:348][871]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.09.03-14.21.05:354][871]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.09.03-14.21.05:354][871]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.09.03-14.21.05:354][871]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97626488-4581-C3A7-30AE-E283ABBCCB2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=7123cab7478071943ba2c49644e6184c%7C7c99435a6af942629057f989fd20bb73%7C9a129344-a0cd-4069-a338-6dde2ba7dfc8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.09.03-14.21.05:383][871]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.09.03-14.21.05:384][871]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.09.03-14.21.05:384][871]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.09.03-14.21.05:385][871]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.09.03-14.21.05:392][871]LogExit: Exiting.
+[2019.09.03-14.21.05:396][871]Log file closed, 09/03/19 16:21:05
